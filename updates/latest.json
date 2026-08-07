@@ -1,0 +1,14 @@
+{
+    "channels":  {
+                     "stable":  {
+                                    "version":  "0.1.37",
+                                    "date":  "2026-08-07",
+                                    "notes":  "Patch 0.1.37: adiciona legenda ao Ritmo do mes e remove o Comparativo rapido da Home.",
+                                    "downloads":  {
+                                                      "releasePage":  "https://github.com/Crucitti/jornada-releases/releases/latest",
+                                                      "windowsInstaller":  "https://github.com/Crucitti/jornada-releases/releases/download/v0.1.37/JornadaSetup.exe",
+                                                      "androidApk":  "https://github.com/Crucitti/jornada-releases/releases/download/v0.1.37/Jornada-0.1.37.apk"
+                                                  }
+                                }
+                 }
+}

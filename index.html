@@ -1,0 +1,2670 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Códice | Home</title>
+    <meta name="theme-color" content="#15144b">
+    <meta name="application-name" content="Códice">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Códice">
+    <link rel="manifest" href="manifest.webmanifest?v=20260807-rhythm-legend">
+    <link rel="stylesheet" href="styles.css?v=20260807-rhythm-legend">
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg?v=20260807-rhythm-legend">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png?v=20260807-rhythm-legend">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png?v=20260807-rhythm-legend">
+  </head>
+  <body>
+    <svg class="icon-sprite" aria-hidden="true">
+      <symbol id="icon-home" viewBox="0 0 24 24">
+        <path d="m3 11 9-8 9 8"></path>
+        <path d="M5 10v10h14V10"></path>
+        <path d="M9 20v-6h6v6"></path>
+      </symbol>
+      <symbol id="icon-map" viewBox="0 0 24 24">
+        <path d="M9 18 3 21V6l6-3 6 3 6-3v15l-6 3-6-3Z"></path>
+        <path d="M9 3v15"></path>
+        <path d="M15 6v15"></path>
+      </symbol>
+      <symbol id="icon-flag" viewBox="0 0 24 24">
+        <path d="M5 21V4"></path>
+        <path d="M5 4h12l-2 4 2 4H5"></path>
+      </symbol>
+      <symbol id="icon-lock" viewBox="0 0 24 24">
+        <rect x="5" y="11" width="14" height="10" rx="2"></rect>
+        <path d="M8 11V8a4 4 0 0 1 8 0v3"></path>
+      </symbol>
+      <symbol id="icon-wallet" viewBox="0 0 24 24">
+        <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6.5A2.5 2.5 0 0 1 4 16.5v-9Z"></path>
+        <path d="M16 12h4"></path>
+        <path d="M7 5.1V4a2 2 0 0 1 2-2h7"></path>
+      </symbol>
+      <symbol id="icon-plus" viewBox="0 0 24 24">
+        <path d="M12 5v14"></path>
+        <path d="M5 12h14"></path>
+      </symbol>
+      <symbol id="icon-download" viewBox="0 0 24 24">
+        <path d="M12 3v12"></path>
+        <path d="m7 10 5 5 5-5"></path>
+        <path d="M5 21h14"></path>
+      </symbol>
+      <symbol id="icon-upload" viewBox="0 0 24 24">
+        <path d="M12 15V3"></path>
+        <path d="m7 8 5-5 5 5"></path>
+        <path d="M5 21h14"></path>
+      </symbol>
+      <symbol id="icon-edit" viewBox="0 0 24 24">
+        <path d="M4 20h4l10.5-10.5a2.1 2.1 0 0 0-3-3L5 17v3Z"></path>
+        <path d="m14 7 3 3"></path>
+      </symbol>
+      <symbol id="icon-trash" viewBox="0 0 24 24">
+        <path d="M5 7h14"></path>
+        <path d="M9 7V5h6v2"></path>
+        <path d="m8 7 1 13h6l1-13"></path>
+      </symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <path d="m6 6 12 12"></path>
+        <path d="m18 6-12 12"></path>
+      </symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24">
+        <circle cx="10.5" cy="10.5" r="6.5"></circle>
+        <path d="m16 16 5 5"></path>
+      </symbol>
+      <symbol id="icon-chart" viewBox="0 0 24 24">
+        <path d="M4 19h16"></path>
+        <path d="M7 16V9"></path>
+        <path d="M12 16V5"></path>
+        <path d="M17 16v-4"></path>
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m5 12 4 4 10-10"></path>
+      </symbol>
+      <symbol id="icon-star" viewBox="0 0 24 24">
+        <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"></path>
+      </symbol>
+      <symbol id="icon-book" viewBox="0 0 24 24">
+        <path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3V4Z"></path>
+        <path d="M8 17h11"></path>
+      </symbol>
+      <symbol id="icon-list" viewBox="0 0 24 24">
+        <path d="M9 7h11"></path>
+        <path d="M9 12h11"></path>
+        <path d="M9 17h11"></path>
+        <path d="M4 7h.01"></path>
+        <path d="M4 12h.01"></path>
+        <path d="M4 17h.01"></path>
+      </symbol>
+      <symbol id="icon-utensils" viewBox="0 0 24 24">
+        <path d="M4 3v8"></path>
+        <path d="M8 3v8"></path>
+        <path d="M4 7h4"></path>
+        <path d="M6 11v10"></path>
+        <path d="M14 3v18"></path>
+        <path d="M14 3c3 1.2 5 3.7 5 7v2h-5"></path>
+      </symbol>
+      <symbol id="icon-dumbbell" viewBox="0 0 24 24">
+        <path d="m6 6 12 12"></path>
+        <path d="m4 8 4-4"></path>
+        <path d="m16 20 4-4"></path>
+        <path d="M3 11 11 3"></path>
+        <path d="m13 21 8-8"></path>
+      </symbol>
+      <symbol id="icon-sun" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="4"></circle>
+        <path d="M12 2v2"></path>
+        <path d="M12 20v2"></path>
+        <path d="m4.93 4.93 1.41 1.41"></path>
+        <path d="m17.66 17.66 1.41 1.41"></path>
+        <path d="M2 12h2"></path>
+        <path d="M20 12h2"></path>
+        <path d="m6.34 17.66-1.41 1.41"></path>
+        <path d="m19.07 4.93-1.41 1.41"></path>
+      </symbol>
+      <symbol id="icon-moon" viewBox="0 0 24 24">
+        <path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 7 7 0 1 0 20 15.5Z"></path>
+      </symbol>
+      <symbol id="icon-settings" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="3"></circle>
+        <path d="M12 2v3"></path>
+        <path d="M12 19v3"></path>
+        <path d="m4.93 4.93 2.12 2.12"></path>
+        <path d="m16.95 16.95 2.12 2.12"></path>
+        <path d="M2 12h3"></path>
+        <path d="M19 12h3"></path>
+        <path d="m4.93 19.07 2.12-2.12"></path>
+        <path d="m16.95 7.05 2.12-2.12"></path>
+      </symbol>
+      <symbol id="icon-more" viewBox="0 0 24 24">
+        <circle cx="5" cy="12" r="1.5"></circle>
+        <circle cx="12" cy="12" r="1.5"></circle>
+        <circle cx="19" cy="12" r="1.5"></circle>
+      </symbol>
+      <symbol id="icon-arrow-up" viewBox="0 0 24 24">
+        <path d="M12 19V5"></path>
+        <path d="m5 12 7-7 7 7"></path>
+      </symbol>
+      <symbol id="icon-arrow-down" viewBox="0 0 24 24">
+        <path d="M12 5v14"></path>
+        <path d="m19 12-7 7-7-7"></path>
+      </symbol>
+      <symbol id="icon-eye" viewBox="0 0 24 24">
+        <path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path>
+        <circle cx="12" cy="12" r="3"></circle>
+      </symbol>
+      <symbol id="icon-layout" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="7" height="7" rx="1.5"></rect>
+        <rect x="14" y="3" width="7" height="7" rx="1.5"></rect>
+        <rect x="3" y="14" width="7" height="7" rx="1.5"></rect>
+        <rect x="14" y="14" width="7" height="7" rx="1.5"></rect>
+      </symbol>
+      <symbol id="icon-code" viewBox="0 0 24 24">
+        <path d="m8 8-4 4 4 4"></path>
+        <path d="m16 8 4 4-4 4"></path>
+        <path d="m14 4-4 16"></path>
+      </symbol>
+      <symbol id="icon-image" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+        <circle cx="9" cy="10" r="2"></circle>
+        <path d="m21 16-5-5L5 19"></path>
+      </symbol>
+      <symbol id="icon-cube" viewBox="0 0 24 24">
+        <path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"></path>
+        <path d="M12 12 4 7.5"></path>
+        <path d="m12 12 8-4.5"></path>
+        <path d="M12 12v9"></path>
+      </symbol>
+    </svg>
+
+    <div class="app-shell">
+      <header class="app-hud">
+        <div class="brand-row">
+          <div class="brand">
+            <div class="brand-mark" aria-hidden="true">
+              <svg class="brand-sigil" viewBox="0 0 32 32">
+                <path d="M16 3 25 16 16 29 7 16 16 3Z"></path>
+                <path d="M16 7v18"></path>
+                <path d="m10 16 6-5 6 5-6 5-6-5Z"></path>
+                <path d="M12 9h8"></path>
+                <path d="M12 23h8"></path>
+              </svg>
+            </div>
+            <div>
+              <strong>Códice</strong>
+              <span>Arquivo pessoal</span>
+            </div>
+          </div>
+        </div>
+
+        <nav class="module-nav" aria-label="Páginas">
+          <button class="module active" type="button" data-view-target="home">
+            <svg class="icon"><use href="#icon-home"></use></svg>
+            <span>Home</span>
+          </button>
+          <button class="module" type="button" data-view-target="finance">
+            <svg class="icon"><use href="#icon-wallet"></use></svg>
+            <span>Finanças</span>
+          </button>
+          <button class="module" type="button" data-view-target="workouts">
+            <svg class="icon"><use href="#icon-dumbbell"></use></svg>
+            <span>Treinos</span>
+          </button>
+          <button class="module" type="button" data-view-target="study">
+            <svg class="icon"><use href="#icon-book"></use></svg>
+            <span>Estudos</span>
+          </button>
+          <button class="module" type="button" data-view-target="creative">
+            <svg class="icon"><use href="#icon-code"></use></svg>
+            <span>Area Criativa</span>
+          </button>
+          <button class="module" type="button" data-view-target="media">
+            <svg class="icon"><use href="#icon-book"></use></svg>
+            <span>Biblioteca</span>
+          </button>
+          <button class="module" type="button" data-view-target="recipes">
+            <svg class="icon"><use href="#icon-utensils"></use></svg>
+            <span>Receitas</span>
+          </button>
+          <button class="module" type="button" data-view-target="pantry">
+            <svg class="icon"><use href="#icon-cube"></use></svg>
+            <span>Despensa</span>
+          </button>
+          <button class="module" type="button" data-view-target="shopping">
+            <svg class="icon"><use href="#icon-list"></use></svg>
+            <span>Compras</span>
+          </button>
+        </nav>
+
+        <div class="hud-actions">
+          <button id="page-edit-toggle" class="icon-button hud-context-action page-edit-toggle" type="button" aria-label="Editar pagina" title="Editar pagina" hidden>
+            <svg class="icon"><use href="#icon-edit"></use></svg>
+          </button>
+          <button id="page-add-block" class="icon-button hud-context-action page-add-block" type="button" aria-label="Adicionar bloco" title="Adicionar bloco" hidden>
+            <svg class="icon"><use href="#icon-plus"></use></svg>
+          </button>
+          <div class="hud-system-status" aria-label="Status do sistema">
+            <button id="cloud-sync-button" class="cloud-sync-button hud-status-chip" type="button" aria-label="Sincronizacao em nuvem" title="Sincronizacao em nuvem">
+              <span id="cloud-sync-status" class="cloud-sync-status offline" aria-hidden="true"></span>
+              <span id="cloud-sync-label">Nuvem off</span>
+            </button>
+            <button id="hud-backup-status" class="hud-status-chip hud-status-desktop" type="button" aria-label="Status do backup" title="Abrir backup no Sistema">
+              <span class="hud-status-dot" aria-hidden="true"></span>
+              <span>Backup</span>
+            </button>
+            <button id="hud-version-status" class="hud-status-chip hud-status-desktop" type="button" aria-label="Versao atual" title="Abrir atualizacoes no Sistema">
+              <span id="hud-version-label">v0.1.37</span>
+            </button>
+          </div>
+          <button id="open-system" class="icon-button system-shortcut" type="button" aria-label="Abrir sistema" title="Sistema">
+            <svg class="icon"><use href="#icon-settings"></use></svg>
+          </button>
+        </div>
+      </header>
+
+      <main class="main">
+        <section id="home-view" class="view active home-view" data-view-panel="home">
+          <div class="home-shell">
+            <header class="home-command-center">
+              <div class="home-command-copy">
+                <p class="eyebrow">Home</p>
+                <h1>Painel do dia</h1>
+                <p class="hero-copy">Resumo prático do Códice para abrir o app e saber o que importa agora.</p>
+              </div>
+              <div class="home-search-wrap">
+                <label class="home-search-field" for="home-global-search">
+                  <svg class="icon"><use href="#icon-search"></use></svg>
+                  <input id="home-global-search" type="search" autocomplete="off" placeholder="Buscar gasto, despensa, compra, treino, receita, estudo...">
+                </label>
+                <div id="home-global-search-results" class="home-search-results" hidden></div>
+              </div>
+            </header>
+
+            <section class="home-dashboard-grid" aria-label="Resumo da Home">
+              <article class="home-card home-finance-card">
+                <div class="home-card-header">
+                  <div>
+                    <p class="eyebrow">Finanças</p>
+                    <h2>Resumo do mês</h2>
+                  </div>
+                  <button class="button secondary compact-button" type="button" data-open-view="finance">Abrir</button>
+                </div>
+                <div class="home-money-focus">
+                  <span>Disponível para gastar</span>
+                  <strong id="home-finance-spendable">R$ 0,00</strong>
+                  <small id="home-finance-per-day">R$ 0,00 por dia até o fim do mês</small>
+                  <div class="home-finance-streak" aria-label="Progresso sem gastos">
+                    <span id="home-finance-no-spend-days">0 dias sem gastos</span>
+                    <span id="home-finance-no-spend-accumulated">R$ 0,00 acumulado</span>
+                  </div>
+                </div>
+                <div class="home-metric-grid">
+                  <div>
+                    <span>Entrou</span>
+                    <strong id="home-finance-income">R$ 0,00</strong>
+                  </div>
+                  <div>
+                    <span>Saiu</span>
+                    <strong id="home-finance-expense">R$ 0,00</strong>
+                  </div>
+                  <div>
+                    <span>Fixos restantes</span>
+                    <strong id="home-finance-fixed-remaining">R$ 0,00</strong>
+                  </div>
+                </div>
+                <div class="home-card-section">
+                  <div class="home-section-title">
+                    <span>Próximas contas fixas</span>
+                    <small id="home-finance-status">Nenhuma pendência</small>
+                  </div>
+                  <div id="home-finance-next-bills" class="home-mini-list"></div>
+                </div>
+                <div class="home-action-row">
+                  <button class="button primary" type="button" data-home-action="expense">Lançar gasto</button>
+                  <button class="button secondary" type="button" data-home-action="income">Adicionar entrada</button>
+                </div>
+              </article>
+
+              <article class="home-card home-rhythm-card">
+                <div class="home-card-header">
+                  <div>
+                    <p class="eyebrow">Ritmo do mês</p>
+                    <h2>Gastos e dias limpos</h2>
+                  </div>
+                  <span id="home-rhythm-forecast" class="home-rhythm-forecast">Previsão: R$ 0,00</span>
+                </div>
+                <div id="home-rhythm-calendar" class="home-rhythm-calendar" aria-label="Calendário de ritmo do mês"></div>
+                <div class="home-rhythm-legend" aria-label="Legenda do ritmo do mês">
+                  <span><i class="home-rhythm-dot clean" aria-hidden="true"></i>Sem gastos</span>
+                  <span><i class="home-rhythm-dot spend" aria-hidden="true"></i>Gasto</span>
+                  <span><i class="home-rhythm-dot fixed" aria-hidden="true"></i>Conta fixa</span>
+                  <span><i class="home-rhythm-dot today" aria-hidden="true"></i>Hoje</span>
+                  <span><i class="home-rhythm-dot future" aria-hidden="true"></i>Futuro</span>
+                </div>
+                <div class="home-rhythm-summary" aria-label="Resumo do ritmo do mês">
+                  <div>
+                    <span>Dias sem gastos</span>
+                    <strong id="home-rhythm-days">0</strong>
+                  </div>
+                  <div>
+                    <span>Acumulado</span>
+                    <strong id="home-rhythm-accumulated">R$ 0,00</strong>
+                  </div>
+                  <div>
+                    <span>Por dia restante</span>
+                    <strong id="home-rhythm-daily">R$ 0,00</strong>
+                  </div>
+                </div>
+              </article>
+
+              <article class="home-card home-inbox-card">
+                <div class="home-card-header">
+                  <div>
+                    <p class="eyebrow">Inbox rápida</p>
+                    <h2>Anotar sem organizar</h2>
+                  </div>
+                </div>
+                <form id="home-inbox-form" class="home-inbox-form">
+                  <select id="home-inbox-kind" aria-label="Tipo da anotação rápida">
+                    <option value="expense">Gasto</option>
+                    <option value="shopping">Compra</option>
+                    <option value="idea">Ideia</option>
+                    <option value="music">Música</option>
+                    <option value="task">Tarefa/Estudo</option>
+                  </select>
+                  <textarea id="home-inbox-text" rows="3" maxlength="280" placeholder="Ex.: pagar internet, ideia de receita, música para playlist..."></textarea>
+                  <button class="button primary" type="submit">Guardar</button>
+                </form>
+                <div id="home-inbox-list" class="home-mini-list home-inbox-list"></div>
+              </article>
+
+              <article class="home-card home-today-card">
+                <div class="home-card-header">
+                  <div>
+                    <p class="eyebrow">Hoje / Próximos</p>
+                    <h2>O que pede atenção</h2>
+                  </div>
+                  <span id="home-today-date" class="home-date-pill">Hoje</span>
+                </div>
+                <div id="home-today-list" class="home-focus-list"></div>
+              </article>
+            </section>
+          </div>
+        </section>
+
+        <section id="study-view" class="view" data-view-panel="study" hidden>
+          <header class="topbar study-topbar">
+            <div>
+              <p class="eyebrow">Quadro de Estudos</p>
+              <h1>Estudos</h1>
+            </div>
+            <div class="study-topbar-actions">
+              <div class="quest-rank-strip study-rank-strip" aria-label="Areas de estudo">
+                <span>Materias</span>
+                <span>Revisoes</span>
+                <span>Exercicios</span>
+                <span>Provas</span>
+              </div>
+              <button id="open-study-categories" class="button secondary" type="button">
+                <svg class="icon"><use href="#icon-edit"></use></svg>
+                <span>Categorias</span>
+              </button>
+            </div>
+          </header>
+
+          <section class="summary-grid study-summary-grid" aria-label="Resumo de estudos">
+            <article class="metric study-metric-focus">
+              <span>Cronograma</span>
+              <strong id="study-schedule-total">0</strong>
+              <small id="study-schedule-detail">sem blocos na semana</small>
+            </article>
+            <article class="metric study-metric-review">
+              <span>To do aberto</span>
+              <strong id="study-todo-open-total">0</strong>
+              <small id="study-todo-detail">nada pendente</small>
+            </article>
+            <article class="metric study-metric-exam">
+              <span>Materiais</span>
+              <strong id="study-resource-total">0</strong>
+              <small id="study-resource-detail">materias, cursos e desafios</small>
+            </article>
+            <article class="metric study-metric-notes">
+              <span>Notas e links</span>
+              <strong id="study-reference-total">0</strong>
+              <small id="study-reference-detail">calendario e referencias</small>
+            </article>
+          </section>
+
+          <section class="study-board-shell">
+            <section class="study-focus-column" aria-label="Foco de estudos">
+              <section class="panel study-todo-panel" aria-label="To do de estudos">
+                <div class="panel-header">
+                  <div>
+                    <h2>To do</h2>
+                    <p>Coisas que precisam ser finalizadas.</p>
+                  </div>
+                  <svg class="icon panel-icon"><use href="#icon-check"></use></svg>
+                </div>
+                <form id="study-todo-form" class="study-inline-form study-todo-form">
+                  <input id="study-todo-title" type="text" maxlength="120" placeholder="O que precisa terminar?" required>
+                  <select id="study-todo-area" aria-label="Area do to do"></select>
+                  <input id="study-todo-due" type="date" aria-label="Prazo">
+                  <button class="button primary" type="submit">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Adicionar</span>
+                  </button>
+                </form>
+                <div id="study-todo-list" class="study-todo-list"></div>
+              </section>
+
+              <section class="panel study-pomodoro-panel" aria-label="Pomodoro">
+                <div class="study-pomodoro-surface">
+                  <div class="panel-header">
+                    <div>
+                      <h2>Pomodoro</h2>
+                      <p>Foco, pausa curta e pausa longa em ciclo automatico.</p>
+                    </div>
+                    <svg class="icon panel-icon"><use href="#icon-chart"></use></svg>
+                  </div>
+                  <div class="study-pomodoro-body">
+                    <div id="study-pomodoro-modes" class="study-pomodoro-modes" role="tablist" aria-label="Modo do pomodoro"></div>
+                    <strong id="study-pomodoro-time" class="study-pomodoro-time">25:00</strong>
+                    <small id="study-pomodoro-status" class="study-pomodoro-status">Ciclo 0/4</small>
+                    <div class="study-pomodoro-controls">
+                      <button id="study-pomodoro-start" class="button primary" type="button">Start</button>
+                      <button id="study-pomodoro-reset" class="icon-button" type="button" aria-label="Resetar ciclo do pomodoro" title="Resetar ciclo">
+                        <svg class="icon"><use href="#icon-close"></use></svg>
+                      </button>
+                    </div>
+                    <div class="study-pomodoro-settings">
+                      <label class="field">
+                        <span>Pomodoro</span>
+                        <input id="study-pomodoro-duration" type="number" min="1" max="120" step="1">
+                      </label>
+                      <label class="field">
+                        <span>Short break</span>
+                        <input id="study-short-break-duration" type="number" min="1" max="60" step="1">
+                      </label>
+                      <label class="field">
+                        <span>Long break</span>
+                        <input id="study-long-break-duration" type="number" min="1" max="90" step="1">
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
+
+            <section class="panel study-schedule-panel" aria-label="Cronograma semanal">
+              <div class="panel-header">
+                <div>
+                  <h2>Cronograma semanal</h2>
+                  <p>Monte os blocos de estudo por dia e abra cada bloco para detalhes.</p>
+                </div>
+                <svg class="icon panel-icon"><use href="#icon-layout"></use></svg>
+              </div>
+              <div id="study-schedule-board" class="study-schedule-board"></div>
+            </section>
+
+            <section class="panel study-calendar-panel" aria-label="Calendario de anotações">
+              <div class="panel-header study-calendar-header">
+                <div>
+                  <h2>Calendario</h2>
+                  <p>Escolha um dia e registre anotacoes, provas ou entregas.</p>
+                </div>
+                <div class="study-calendar-actions">
+                  <button class="icon-button" type="button" data-study-action="calendar-prev" aria-label="Mes anterior" title="Mes anterior">
+                    <svg class="icon"><use href="#icon-arrow-up"></use></svg>
+                  </button>
+                  <strong id="study-calendar-month-label">Mes</strong>
+                  <button class="icon-button" type="button" data-study-action="calendar-next" aria-label="Proximo mes" title="Proximo mes">
+                    <svg class="icon"><use href="#icon-arrow-down"></use></svg>
+                  </button>
+                </div>
+              </div>
+              <div class="study-calendar-layout">
+                <div id="study-calendar-grid" class="study-calendar-grid"></div>
+                <section class="study-calendar-notes">
+                  <div class="study-calendar-selected">
+                    <span>Dia selecionado</span>
+                    <strong id="study-calendar-date-label">Hoje</strong>
+                  </div>
+                  <form id="study-calendar-note-form" class="study-note-form">
+                    <input id="study-calendar-note-title" type="text" maxlength="100" placeholder="Titulo da anotacao" required>
+                    <textarea id="study-calendar-note-body" rows="4" maxlength="700" placeholder="Anotacoes, prova, entrega, lembrete..."></textarea>
+                    <button class="button primary" type="submit">
+                      <svg class="icon"><use href="#icon-plus"></use></svg>
+                      <span>Salvar anotacao</span>
+                    </button>
+                  </form>
+                  <div id="study-calendar-note-list" class="study-note-list"></div>
+                </section>
+              </div>
+            </section>
+
+            <section class="study-material-column" aria-label="Links de estudos">
+              <section class="panel study-links-panel" aria-label="Links salvos">
+                <div class="panel-header">
+                  <div>
+                    <h2>Links</h2>
+                    <p>Salve Faculdade/Cursos e links uteis em um quadro simples.</p>
+                  </div>
+                  <svg class="icon panel-icon"><use href="#icon-book"></use></svg>
+                </div>
+                <form id="study-link-form" class="study-inline-form study-link-form">
+                  <input id="study-link-title" type="text" maxlength="90" placeholder="Nome do link" required>
+                  <input id="study-link-url" type="url" maxlength="500" placeholder="https://..." required>
+                  <select id="study-link-group" aria-label="Grupo do link"></select>
+                  <button class="button primary" type="submit">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Salvar</span>
+                  </button>
+                </form>
+                <div id="study-link-list" class="study-link-groups"></div>
+              </section>
+            </section>
+
+            <section class="panel study-resource-panel" aria-label="Materias e materiais">
+              <div class="panel-header">
+                <div>
+                  <h2>Materias, cursos e desafios</h2>
+                  <p>Guarde modulos de curso, desafios encontrados, video aulas e materiais soltos.</p>
+                </div>
+                <svg class="icon panel-icon"><use href="#icon-star"></use></svg>
+              </div>
+              <form id="study-resource-form" class="study-resource-form">
+                <input id="study-resource-title" type="text" maxlength="120" placeholder="Titulo do material" required>
+                <select id="study-resource-type" aria-label="Tipo do material"></select>
+                <input id="study-resource-url" type="url" maxlength="500" placeholder="Link opcional">
+                <textarea id="study-resource-notes" rows="2" maxlength="500" placeholder="Notas rapidas"></textarea>
+                <button class="button primary" type="submit">
+                  <svg class="icon"><use href="#icon-plus"></use></svg>
+                  <span>Adicionar</span>
+                </button>
+              </form>
+              <div id="study-resource-list" class="study-resource-list"></div>
+            </section>
+          </section>
+        </section>
+
+        <dialog id="study-category-dialog" class="dialog study-category-dialog">
+          <div class="dialog-card study-category-dialog-card">
+            <header class="dialog-header">
+              <div>
+                <p class="eyebrow">Estudos</p>
+                <h2>Categorias</h2>
+                <p>Edite as categorias usadas em links, to do e materiais.</p>
+              </div>
+              <button id="close-study-category-dialog" class="icon-button" type="button" aria-label="Fechar categorias" title="Fechar">
+                <svg class="icon"><use href="#icon-close"></use></svg>
+              </button>
+            </header>
+            <section class="study-category-dialog-body">
+              <form id="study-category-form" class="study-category-form">
+                <select id="study-category-scope" aria-label="Tipo de categoria">
+                  <option value="link">Links</option>
+                  <option value="todo">To do</option>
+                  <option value="resource">Materiais</option>
+                </select>
+                <input id="study-category-name" type="text" maxlength="60" placeholder="Nova categoria" required>
+                <input id="study-category-color" type="color" value="#7657c8" aria-label="Cor da categoria">
+                <button class="button primary" type="submit">
+                  <svg class="icon"><use href="#icon-plus"></use></svg>
+                  <span>Adicionar</span>
+                </button>
+              </form>
+              <div id="study-category-list" class="study-category-list"></div>
+            </section>
+          </div>
+        </dialog>
+
+        <section id="creative-view" class="view" data-view-panel="creative" hidden>
+          <header class="topbar creative-topbar">
+            <div>
+              <p class="eyebrow">Quadro de criação</p>
+              <h1>Area Criativa</h1>
+            </div>
+            <div class="topbar-actions creative-topbar-actions">
+              <button id="new-creative-item" class="button primary" type="button">
+                <svg class="icon"><use href="#icon-plus"></use></svg>
+                <span>Nova criação</span>
+              </button>
+            </div>
+          </header>
+
+          <section class="creative-shell" aria-label="Area criativa">
+            <section class="panel creative-board-panel">
+              <div class="panel-header creative-board-header">
+                <div>
+                  <h2>Projetos e testes</h2>
+                  <p>Historias, codigos, imagens, modelos 3D e outras ideias.</p>
+                </div>
+                <div class="creative-type-strip" aria-label="Tipos de criacao">
+                  <span>Texto</span>
+                  <span>Codigo</span>
+                  <span>Visual</span>
+                  <span>Playlist</span>
+                  <span>Outros</span>
+                </div>
+              </div>
+              <div id="creative-board" class="creative-board-columns" aria-live="polite"></div>
+            </section>
+
+            <section class="panel creative-detail-panel">
+              <div id="creative-detail" class="creative-detail" aria-live="polite"></div>
+            </section>
+          </section>
+        </section>
+
+        <dialog id="creative-item-dialog" class="dialog creative-item-dialog">
+          <form id="creative-item-form" class="dialog-card creative-item-dialog-card" novalidate>
+            <div class="dialog-header">
+              <div>
+                <p class="eyebrow">Area Criativa</p>
+                <h2 id="creative-item-dialog-title">Nova criação</h2>
+                <p id="creative-item-form-subtitle">Cadastro do projeto criativo.</p>
+              </div>
+              <button id="close-creative-item-dialog" class="icon-button" type="button" aria-label="Fechar criação" title="Fechar">
+                <svg class="icon"><use href="#icon-close"></use></svg>
+              </button>
+            </div>
+            <input id="creative-item-id" type="hidden">
+            <div class="creative-item-form-grid">
+              <label class="field span-2">
+                <span>Titulo</span>
+                <input id="creative-item-title" type="text" maxlength="120" placeholder="Ex.: conto curto, teste de jogo, referencia de personagem">
+              </label>
+              <label class="field">
+                <span>Tipo</span>
+                <select id="creative-item-type">
+                  <option value="story">Historia</option>
+                  <option value="code">Codigo</option>
+                  <option value="image">Imagem / ilustracao</option>
+                  <option value="model3d">Modelo 3D</option>
+                  <option value="dashboard">Dashboard / relatorio</option>
+                  <option value="playlist">Playlist</option>
+                  <option value="other">Outros / coringa</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Status</span>
+                <select id="creative-item-status">
+                  <option value="idea">Ideia</option>
+                  <option value="draft">Rascunho</option>
+                  <option value="testing">Teste</option>
+                  <option value="done">Feito</option>
+                  <option value="archived">Arquivo</option>
+                </select>
+              </label>
+              <label class="field span-2">
+                <span>Tags</span>
+                <input id="creative-item-tags" type="text" maxlength="160" placeholder="Ex.: fantasia, personagem, python, blender">
+              </label>
+              <label class="field span-2 creative-link-field">
+                <span>Link ou caminho</span>
+                <input id="creative-item-link" type="text" maxlength="600" placeholder="https://, arquivo local, pasta do teste...">
+              </label>
+              <label class="field span-2 creative-image-field">
+                <span>Imagem de referencia</span>
+                <input id="creative-item-image-url" type="text" maxlength="1200" placeholder="URL da imagem ou data:image">
+              </label>
+              <label class="field span-2 creative-model-field">
+                <span>Modelo 3D / arquivo</span>
+                <input id="creative-item-model-url" type="text" maxlength="1200" placeholder="Link, pasta ou nome do arquivo .blend/.glb/.obj">
+              </label>
+              <label class="field span-2 creative-reference-field">
+                <span>Referencia escrita</span>
+                <textarea id="creative-item-reference" rows="4" maxlength="4000" placeholder="Ideia visual, mood, regras do teste, briefing ou referencias."></textarea>
+              </label>
+              <label class="field span-2 creative-content-field">
+                <span>Texto / rascunho</span>
+                <textarea id="creative-item-content" rows="8" maxlength="12000" placeholder="Escreva a cena, descricao da ideia, plano do teste ou anotacoes."></textarea>
+              </label>
+              <label class="field creative-language-field">
+                <span>Linguagem</span>
+                <select id="creative-item-language">
+                  <option value="python">Python</option>
+                  <option value="javascript">JavaScript</option>
+                  <option value="html">HTML</option>
+                  <option value="text">Texto</option>
+                </select>
+              </label>
+              <label class="field span-2 creative-code-field">
+                <span>Codigo</span>
+                <textarea id="creative-item-code" rows="10" maxlength="20000" spellcheck="false" placeholder="print('ola')"></textarea>
+              </label>
+              <label class="field span-2">
+                <span>Saida esperada / resultado</span>
+                <textarea id="creative-item-output" rows="4" maxlength="4000" placeholder="O que aconteceu, o que testar depois, ou a saida esperada."></textarea>
+              </label>
+            </div>
+            <div class="dialog-actions creative-form-actions">
+              <button id="cancel-creative-item-dialog" class="button secondary" type="button">Cancelar</button>
+              <button class="button primary" type="submit">
+                <svg class="icon"><use href="#icon-plus"></use></svg>
+                <span id="creative-item-submit-label">Adicionar criação</span>
+              </button>
+            </div>
+          </form>
+        </dialog>
+
+        <section id="media-view" class="view" data-view-panel="media" hidden>
+          <header class="topbar media-topbar">
+            <div>
+              <p class="eyebrow">Biblioteca pessoal</p>
+              <h1>Leitura, filmes e series</h1>
+            </div>
+            <div class="topbar-actions media-topbar-actions">
+              <button id="new-media-item" class="button primary" type="button">
+                <svg class="icon"><use href="#icon-plus"></use></svg>
+                <span>Nova obra</span>
+              </button>
+            </div>
+          </header>
+
+          <section class="summary-grid media-summary-grid" aria-label="Resumo da biblioteca">
+            <article class="metric media-metric-total">
+              <span>Total</span>
+              <strong id="media-total-count">0</strong>
+              <small id="media-total-detail">biblioteca vazia</small>
+            </article>
+            <article class="metric media-metric-progress">
+              <span>Em andamento</span>
+              <strong id="media-progress-count">0</strong>
+              <small id="media-progress-detail">0 obras abertas</small>
+            </article>
+            <article class="metric media-metric-completed">
+              <span>Concluidas</span>
+              <strong id="media-completed-count">0</strong>
+              <small id="media-completed-detail">0% fechado</small>
+            </article>
+            <section class="panel register-index-panel media-subpage-panel" aria-label="Subpaginas da biblioteca">
+              <div class="panel-header">
+                <div>
+                  <h2>Subpáginas</h2>
+                  <p>Biblioteca e configurações</p>
+                </div>
+              </div>
+              <div class="register-shortcuts media-subpage-shortcuts">
+                <button class="register-shortcut active" type="button" data-media-section="items">
+                  <svg class="icon"><use href="#icon-book"></use></svg>
+                  <span>Lista</span>
+                </button>
+                <button class="register-shortcut" type="button" data-media-section="categories">
+                  <svg class="icon"><use href="#icon-list"></use></svg>
+                  <span>Categorias</span>
+                </button>
+                <button class="register-shortcut" type="button" data-media-section="statuses">
+                  <svg class="icon"><use href="#icon-check"></use></svg>
+                  <span>Status</span>
+                </button>
+              </div>
+            </section>
+          </section>
+
+          <section class="media-library-shell" aria-label="Biblioteca por tipo e status">
+            <div id="media-type-tabs" class="media-type-tabs" role="tablist" aria-label="Tipos de producao"></div>
+
+            <section class="media-section-page" data-media-section-panel="items">
+              <div id="media-status-tabs" class="media-status-tabs" role="tablist" aria-label="Status da biblioteca"></div>
+              <div id="media-grid" class="media-card-grid" aria-live="polite"></div>
+            </section>
+
+            <section class="media-section-page" data-media-section-panel="categories" hidden>
+              <article class="media-manager-panel">
+                <div class="panel-header">
+                  <div>
+                    <h2>Categorias</h2>
+                    <p id="media-category-detail">0 categorias</p>
+                  </div>
+                </div>
+                <form id="media-category-form" class="media-inline-form">
+                  <label class="field">
+                    <span>Nova categoria</span>
+                    <input id="media-category-name" type="text" maxlength="60" placeholder="Ex.: manga">
+                  </label>
+                  <button class="button secondary" type="submit">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Adicionar</span>
+                  </button>
+                </form>
+                <div id="media-category-list" class="media-manager-list"></div>
+              </article>
+            </section>
+
+            <section class="media-section-page" data-media-section-panel="statuses" hidden>
+              <article class="media-manager-panel">
+                <div class="panel-header">
+                  <div>
+                    <h2>Status</h2>
+                    <p id="media-status-detail">0 status</p>
+                  </div>
+                </div>
+                <form id="media-status-form" class="media-inline-form">
+                  <label class="field">
+                    <span>Novo status</span>
+                    <input id="media-status-name" type="text" maxlength="60" placeholder="Ex.: pausado">
+                  </label>
+                  <button class="button secondary" type="submit">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Adicionar</span>
+                  </button>
+                </form>
+                <div id="media-status-list" class="media-manager-list"></div>
+              </article>
+            </section>
+          </section>
+        </section>
+
+        <dialog id="media-item-dialog" class="dialog media-item-dialog">
+          <form id="media-item-form" class="dialog-card media-item-dialog-card" novalidate>
+            <div class="dialog-header">
+              <div>
+                <p class="eyebrow">Biblioteca</p>
+                <h2 id="media-item-dialog-title">Nova obra</h2>
+                <p id="media-item-form-subtitle">Cadastro da biblioteca.</p>
+              </div>
+              <button id="close-media-item-dialog" class="icon-button" type="button" aria-label="Fechar cadastro de obra" title="Fechar">
+                <svg class="icon"><use href="#icon-close"></use></svg>
+              </button>
+            </div>
+            <input id="media-item-id" type="hidden">
+            <input id="media-item-cover-data" type="hidden">
+            <div class="media-item-form-grid">
+              <label class="field span-2">
+                <span>Nome da obra</span>
+                <input id="media-item-title" type="text" maxlength="120" placeholder="Ex.: Omniscient Reader">
+              </label>
+              <label class="field">
+                <span>Tipo</span>
+                <select id="media-item-type"></select>
+              </label>
+              <label class="field">
+                <span>Categoria</span>
+                <select id="media-item-category"></select>
+              </label>
+              <label class="field">
+                <span>Status</span>
+                <select id="media-item-status"></select>
+              </label>
+              <label class="field">
+                <span>Link</span>
+                <input id="media-item-url" type="url" maxlength="500" placeholder="https://">
+              </label>
+              <label class="field">
+                <span>Progresso atual</span>
+                <input id="media-item-progress-current" type="number" min="0" step="1" inputmode="numeric" placeholder="0">
+              </label>
+              <label class="field">
+                <span>Maximo</span>
+                <input id="media-item-progress-max" type="number" min="0" step="1" inputmode="numeric" placeholder="opcional">
+              </label>
+              <label class="field span-2 media-cover-field">
+                <span>Capa</span>
+                <input id="media-item-cover" type="file" accept="image/*">
+              </label>
+              <div id="media-cover-preview" class="media-cover-preview span-2" aria-label="Previa da capa"></div>
+            </div>
+            <div class="dialog-actions media-form-actions">
+              <button id="cancel-media-item-dialog" class="button secondary" type="button">Cancelar</button>
+              <button class="button primary" type="submit">
+                <svg class="icon"><use href="#icon-plus"></use></svg>
+                <span id="media-item-submit-label">Adicionar obra</span>
+              </button>
+            </div>
+          </form>
+        </dialog>
+
+        <section id="recipes-view" class="view" data-view-panel="recipes" hidden>
+          <header class="topbar recipes-topbar">
+            <div>
+              <p class="eyebrow">Caderno de Receitas</p>
+              <h1>Receitas</h1>
+            </div>
+            <div class="topbar-actions recipes-topbar-actions">
+              <button id="new-recipe" class="button primary" type="button">
+                <svg class="icon"><use href="#icon-plus"></use></svg>
+                <span>Nova receita</span>
+              </button>
+            </div>
+          </header>
+
+          <section class="summary-grid recipes-summary-grid" aria-label="Resumo de receitas">
+            <article class="metric recipes-metric-total">
+              <span>Total</span>
+              <strong id="recipes-total-count">0</strong>
+              <small id="recipes-total-detail">caderno vazio</small>
+            </article>
+            <article class="metric recipes-metric-planned">
+              <span>Planejadas</span>
+              <strong id="recipes-planned-count">0</strong>
+              <small id="recipes-planned-detail">0 para cozinhar</small>
+            </article>
+            <article class="metric recipes-metric-favorite">
+              <span>Favoritas</span>
+              <strong id="recipes-favorite-count">0</strong>
+              <small id="recipes-favorite-detail">0 marcadas</small>
+            </article>
+            <article class="metric recipes-metric-done">
+              <span>Feitas</span>
+              <strong id="recipes-done-count">0</strong>
+              <small id="recipes-done-detail">0 marcadas como feitas</small>
+            </article>
+          </section>
+
+          <section class="recipes-shell" aria-label="Receitas cadastradas">
+            <section class="panel register-index-panel recipe-subpage-panel" aria-label="Subpaginas de receitas">
+              <div class="panel-header">
+                <div>
+                  <h2>Subpaginas</h2>
+                  <p>Receitas e configuracoes</p>
+                </div>
+              </div>
+              <div class="register-shortcuts recipe-subpage-shortcuts">
+                <button class="register-shortcut active" type="button" data-recipe-section="items">
+                  <svg class="icon"><use href="#icon-utensils"></use></svg>
+                  <span>Lista</span>
+                </button>
+                <button class="register-shortcut" type="button" data-recipe-section="categories">
+                  <svg class="icon"><use href="#icon-list"></use></svg>
+                  <span>Categorias</span>
+                </button>
+                <button class="register-shortcut" type="button" data-recipe-section="statuses">
+                  <svg class="icon"><use href="#icon-check"></use></svg>
+                  <span>Status</span>
+                </button>
+              </div>
+            </section>
+
+            <section class="recipe-section-page" data-recipe-section-panel="items">
+              <div class="recipes-toolbar">
+                <label class="field recipe-search-field">
+                  <span>Buscar</span>
+                  <input id="recipe-search" type="search" maxlength="80" placeholder="Nome, ingredientes ou notas">
+                </label>
+                <label class="field">
+                  <span>Categoria</span>
+                  <select id="recipe-category-filter"></select>
+                </label>
+                <label class="field">
+                  <span>Status</span>
+                  <select id="recipe-status-filter"></select>
+                </label>
+              </div>
+
+              <div id="recipe-category-tabs" class="recipe-category-tabs" role="tablist" aria-label="Categorias de receitas"></div>
+              <div id="recipe-grid" class="recipe-card-grid" aria-live="polite"></div>
+            </section>
+
+            <section class="recipe-section-page" data-recipe-section-panel="categories" hidden>
+              <article class="recipe-manager-panel">
+                <div class="panel-header">
+                  <div>
+                    <h2>Categorias</h2>
+                    <p id="recipe-category-detail">0 categorias</p>
+                  </div>
+                </div>
+                <form id="recipe-category-form" class="recipe-inline-form">
+                  <label class="field">
+                    <span>Nova categoria</span>
+                    <input id="recipe-category-name" type="text" maxlength="60" placeholder="Ex.: fit">
+                  </label>
+                  <button class="button secondary" type="submit">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Adicionar</span>
+                  </button>
+                </form>
+                <div id="recipe-category-list" class="recipe-manager-list"></div>
+              </article>
+            </section>
+
+            <section class="recipe-section-page" data-recipe-section-panel="statuses" hidden>
+              <article class="recipe-manager-panel">
+                <div class="panel-header">
+                  <div>
+                    <h2>Status</h2>
+                    <p id="recipe-status-detail">0 status</p>
+                  </div>
+                </div>
+                <form id="recipe-status-form" class="recipe-inline-form recipe-status-form">
+                  <label class="field">
+                    <span>Novo status</span>
+                    <input id="recipe-status-name" type="text" maxlength="60" placeholder="Ex.: repetir">
+                  </label>
+                  <label class="field color-field">
+                    <span>Cor</span>
+                    <input id="recipe-status-color" type="color" value="#b7791f">
+                  </label>
+                  <button class="button secondary" type="submit">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Adicionar</span>
+                  </button>
+                </form>
+                <div id="recipe-status-list" class="recipe-manager-list"></div>
+              </article>
+            </section>
+          </section>
+        </section>
+
+        <dialog id="recipe-dialog" class="dialog recipe-dialog">
+          <form id="recipe-form" class="dialog-card recipe-dialog-card" novalidate>
+            <div class="dialog-header">
+              <div>
+                <p class="eyebrow">Receitas</p>
+                <h2 id="recipe-dialog-title">Nova receita</h2>
+                <p id="recipe-form-subtitle">Cadastre preparo, ingredientes e planejamento.</p>
+              </div>
+              <button id="close-recipe-dialog" class="icon-button" type="button" aria-label="Fechar cadastro de receita" title="Fechar">
+                <svg class="icon"><use href="#icon-close"></use></svg>
+              </button>
+            </div>
+            <input id="recipe-id" type="hidden">
+            <div class="recipe-form-grid">
+              <label class="field span-2">
+                <span>Nome da receita</span>
+                <input id="recipe-title" type="text" maxlength="120" placeholder="Ex.: frango cremoso com arroz">
+              </label>
+              <label class="field">
+                <span>Categoria</span>
+                <select id="recipe-category"></select>
+              </label>
+              <label class="field">
+                <span>Status</span>
+                <select id="recipe-status"></select>
+              </label>
+              <label class="field">
+                <span>Tempo</span>
+                <input id="recipe-prep-time" type="number" min="0" max="1440" step="5" inputmode="numeric" placeholder="minutos">
+              </label>
+              <label class="field">
+                <span>Porcoes</span>
+                <input id="recipe-servings" type="number" min="0" max="99" step="1" inputmode="numeric" placeholder="opcional">
+              </label>
+              <label class="field span-2">
+                <span>Link</span>
+                <input id="recipe-url" type="url" maxlength="500" placeholder="https://">
+              </label>
+              <label class="field span-2 checkbox-field">
+                <input id="recipe-favorite" type="checkbox">
+                <span>Marcar como favorita</span>
+              </label>
+              <label class="field">
+                <span>Avaliacao</span>
+                <select id="recipe-rating">
+                  <option value="0">Sem avaliacao</option>
+                  <option value="1">&#9733;&#9734;&#9734;&#9734;&#9734;</option>
+                  <option value="2">&#9733;&#9733;&#9734;&#9734;&#9734;</option>
+                  <option value="3">&#9733;&#9733;&#9733;&#9734;&#9734;</option>
+                  <option value="4">&#9733;&#9733;&#9733;&#9733;&#9734;</option>
+                  <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>O que achei</span>
+                <input id="recipe-review" type="text" maxlength="220" placeholder="Gostei, mudaria algo...">
+              </label>
+              <label class="field span-2">
+                <span>Ingredientes</span>
+                <textarea id="recipe-ingredients" rows="5" maxlength="1800" placeholder="Um ingrediente por linha"></textarea>
+              </label>
+              <label class="field span-2">
+                <span>Modo de preparo</span>
+                <textarea id="recipe-steps" rows="5" maxlength="2400" placeholder="Passos principais"></textarea>
+              </label>
+              <label class="field span-2">
+                <span>Notas</span>
+                <textarea id="recipe-notes" rows="3" maxlength="900" placeholder="Ajustes, acompanhamentos ou substituicoes"></textarea>
+              </label>
+            </div>
+            <div class="dialog-actions recipe-form-actions">
+              <button id="cancel-recipe-dialog" class="button secondary" type="button">Cancelar</button>
+              <button class="button primary" type="submit">
+                <svg class="icon"><use href="#icon-plus"></use></svg>
+                <span id="recipe-submit-label">Adicionar receita</span>
+              </button>
+            </div>
+          </form>
+        </dialog>
+
+        <dialog id="recipe-detail-dialog" class="dialog recipe-detail-dialog">
+          <section class="dialog-card recipe-detail-card" aria-labelledby="recipe-detail-title">
+            <div class="dialog-header recipe-detail-header">
+              <div>
+                <p id="recipe-detail-eyebrow" class="eyebrow">Receitas</p>
+                <h2 id="recipe-detail-title">Receita</h2>
+                <p id="recipe-detail-meta">Detalhes da receita.</p>
+              </div>
+              <button id="close-recipe-detail-dialog" class="icon-button" type="button" aria-label="Fechar leitura da receita" title="Fechar">
+                <svg class="icon"><use href="#icon-close"></use></svg>
+              </button>
+            </div>
+            <div id="recipe-detail-content" class="recipe-detail-content"></div>
+            <div class="dialog-actions recipe-detail-actions">
+              <button id="edit-recipe-detail" class="button secondary" type="button">
+                <svg class="icon"><use href="#icon-edit"></use></svg>
+                <span>Editar</span>
+              </button>
+              <button id="close-recipe-detail-footer" class="button primary" type="button">Fechar</button>
+            </div>
+          </section>
+        </dialog>
+
+        <section id="finance-view" class="view" data-view-panel="finance" hidden>
+          <header class="topbar">
+            <div>
+              <p class="eyebrow">Quadro de Finanças</p>
+              <h1>Painel financeiro</h1>
+            </div>
+            <div class="topbar-actions">
+              <label class="field compact month-field">
+                <span>Mês</span>
+                <input id="month-picker" type="month">
+              </label>
+            </div>
+          </header>
+
+          <section class="finance-overview-grid">
+            <section class="finance-card-strip panel" aria-label="Cards financeiros">
+              <div id="finance-card-strip" class="finance-card-grid"></div>
+            </section>
+
+            <section class="finance-top-tools">
+              <section class="panel register-index-panel">
+                <div class="panel-header">
+                  <div>
+                    <h2>Subpáginas</h2>
+                    <p>Cadastros e configurações</p>
+                  </div>
+                </div>
+                <div class="register-shortcuts" aria-label="Subpáginas de cadastro">
+                  <button class="register-shortcut active" type="button" data-register-target="salary">
+                    <svg class="icon"><use href="#icon-wallet"></use></svg>
+                    <span>Salário</span>
+                  </button>
+                  <button class="register-shortcut" type="button" data-register-target="bills">
+                    <svg class="icon"><use href="#icon-list"></use></svg>
+                    <span>Contas fixas</span>
+                  </button>
+                  <button class="register-shortcut" type="button" data-register-target="accounts">
+                    <svg class="icon"><use href="#icon-wallet"></use></svg>
+                    <span>Bancos</span>
+                  </button>
+                  <button class="register-shortcut" type="button" data-register-target="cards">
+                    <svg class="icon"><use href="#icon-check"></use></svg>
+                    <span>Cartões</span>
+                  </button>
+                  <button class="register-shortcut" type="button" data-register-target="categories">
+                    <svg class="icon"><use href="#icon-list"></use></svg>
+                    <span>Categorias</span>
+                  </button>
+                  <button class="register-shortcut" type="button" data-register-target="limits">
+                    <svg class="icon"><use href="#icon-chart"></use></svg>
+                    <span>Limites</span>
+                  </button>
+                </div>
+              </section>
+            </section>
+          </section>
+
+          <dialog id="register-dialog" class="dialog register-dialog">
+            <section class="register-shell dialog-card" aria-label="Cadastros financeiros">
+              <div class="dialog-header register-dialog-header">
+              <div>
+                <h2 id="register-title">Cadastro de salário</h2>
+                <p id="register-subtitle">Salário, benefícios e tipo de vínculo</p>
+              </div>
+              <button id="close-register-dialog" class="icon-button" type="button" aria-label="Fechar cadastros" title="Fechar">
+                <svg class="icon"><use href="#icon-close"></use></svg>
+              </button>
+            </div>
+
+            <div class="register-tabs" role="tablist" aria-label="Subpáginas de cadastro" hidden>
+              <button class="active" type="button" data-register-target="salary">Salário</button>
+              <button type="button" data-register-target="bills">Contas fixas</button>
+              <button type="button" data-register-target="accounts">Bancos</button>
+              <button type="button" data-register-target="cards">Cartões</button>
+              <button type="button" data-register-target="categories">Categorias</button>
+              <button type="button" data-register-target="limits">Limites</button>
+            </div>
+
+            <div class="register-pages">
+              <section class="register-page monthly-plan-body" data-register-page="salary">
+                <div class="plan-input-grid salary-plan-grid">
+                  <label class="field">
+                    <span>Tipo de vínculo</span>
+                    <select id="employment-type">
+                      <option value="clt">CLT</option>
+                      <option value="pj">PJ</option>
+                      <option value="autonomous">Autônomo</option>
+                      <option value="clean">Limpo</option>
+                    </select>
+                  </label>
+                  <label class="field">
+                    <span>Nome da renda</span>
+                    <input id="salary-entry-name" type="text" maxlength="80" placeholder="Ex: Salário principal">
+                  </label>
+                  <label class="field">
+                    <span id="month-salary-label">Salário bruto CLT</span>
+                    <input id="month-salary" type="number" min="0" step="0.01" inputmode="decimal">
+                  </label>
+                  <label class="field">
+                    <span>Benefícios previstos</span>
+                    <input id="month-benefits" type="number" min="0" step="0.01" inputmode="decimal" readonly>
+                  </label>
+                </div>
+                <div class="benefits-panel" aria-label="Cadastro de benefícios">
+                  <div class="benefits-summary">
+                    <strong id="benefits-days-detail">0 dias úteis pagos</strong>
+                    <span id="benefits-holidays-detail">Nenhum feriado em dia útil no mês.</span>
+                  </div>
+                  <div class="benefit-form">
+                    <label class="field">
+                      <span>Benefício</span>
+                      <input id="benefit-name" type="text" maxlength="80" placeholder="Ex: VR, VT, auxílio">
+                    </label>
+                    <label class="field">
+                      <span>Valor</span>
+                      <input id="benefit-amount" type="number" min="0" step="0.01" inputmode="decimal">
+                    </label>
+                    <label class="field">
+                      <span>Cálculo</span>
+                      <select id="benefit-frequency">
+                        <option value="workday">Por dia útil</option>
+                        <option value="week">Por semana útil</option>
+                        <option value="month">Por mês</option>
+                      </select>
+                    </label>
+                    <button id="add-benefit" class="button secondary" type="button">
+                      <svg class="icon"><use href="#icon-plus"></use></svg>
+                      <span>Adicionar benefício</span>
+                    </button>
+                  </div>
+                  <div id="benefit-editor-list" class="benefit-editor-list"></div>
+                </div>
+                <div class="employment-note" id="employment-note"></div>
+                <div class="payroll-grid" aria-label="Cálculo de salário">
+                  <label class="field" data-employment-visible="clt autonomous">
+                    <span>Dependentes IRRF</span>
+                    <input id="salary-dependents" type="number" min="0" step="1" inputmode="numeric">
+                  </label>
+                  <label class="field" data-employment-visible="clt">
+                    <span>Adiantamento</span>
+                    <input id="salary-advance" type="number" min="0" step="0.01" inputmode="decimal">
+                  </label>
+                  <label class="field" data-employment-visible="clt autonomous">
+                    <span>Outros descontos</span>
+                    <input id="salary-other-discounts" type="number" min="0" step="0.01" inputmode="decimal">
+                  </label>
+                  <label class="check-field" data-employment-visible="clt">
+                    <input id="salary-transport-enabled" type="checkbox">
+                    <span>Descontar vale-transporte (6%)</span>
+                  </label>
+                </div>
+                <div class="payroll-grid" data-employment-section="pj" aria-label="Cálculo PJ">
+                  <label class="field">
+                    <span>Alíquota efetiva PJ (%)</span>
+                    <input id="pj-tax-rate" type="number" min="0" max="100" step="0.01" inputmode="decimal">
+                  </label>
+                  <label class="field">
+                    <span>Custos do PJ</span>
+                    <input id="pj-other-costs" type="number" min="0" step="0.01" inputmode="decimal">
+                  </label>
+                </div>
+                <div class="payroll-grid" data-employment-section="autonomous" aria-label="Cálculo autônomo">
+                  <label class="field">
+                    <span>INSS autônomo (%)</span>
+                    <input id="autonomous-inss-rate" type="number" min="0" max="100" step="0.01" inputmode="decimal">
+                  </label>
+                  <label class="field">
+                    <span>Base do INSS</span>
+                    <input id="autonomous-inss-base" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Usa a receita se vazio">
+                  </label>
+                  <label class="field">
+                    <span>Livro-caixa / deduções</span>
+                    <input id="autonomous-book-cash" type="number" min="0" step="0.01" inputmode="decimal">
+                  </label>
+                </div>
+                <div class="clt-summary" aria-label="Resumo de salário">
+                  <div>
+                    <span id="salary-summary-inss-label">INSS</span>
+                    <strong id="clt-inss">R$ 0,00</strong>
+                  </div>
+                  <div>
+                    <span id="salary-summary-irrf-label">IRRF</span>
+                    <strong id="clt-irrf">R$ 0,00</strong>
+                  </div>
+                  <div>
+                    <span id="salary-summary-transport-label">Vale-transporte</span>
+                    <strong id="clt-transport">R$ 0,00</strong>
+                  </div>
+                  <div>
+                    <span id="salary-summary-fgts-label">FGTS</span>
+                    <strong id="clt-fgts">R$ 0,00</strong>
+                  </div>
+                  <div>
+                    <span id="salary-summary-net-label">Líquido + benefícios</span>
+                    <strong id="clt-net-month">R$ 0,00</strong>
+                  </div>
+                  <div>
+                    <span id="salary-summary-paycheck-label">A receber + benefícios</span>
+                    <strong id="clt-net-paycheck">R$ 0,00</strong>
+                  </div>
+                </div>
+                <div class="register-page-title salary-list-title">
+                  <div>
+                    <h3>Salários cadastrados</h3>
+                    <p id="salary-manager-subtitle">Nenhuma renda cadastrada</p>
+                  </div>
+                  <button id="new-salary-entry" class="button secondary" type="button">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Adicionar salário</span>
+                  </button>
+                </div>
+                <div id="salary-editor-list" class="salary-editor-list"></div>
+              </section>
+
+              <section class="register-page monthly-plan-body" data-register-page="bills" hidden>
+                <div class="register-page-title">
+                  <div>
+                    <h3>Cadastro de contas fixas</h3>
+                    <p>Aluguel, internet, assinaturas e qualquer compromisso mensal.</p>
+                  </div>
+                  <strong id="fixed-bills-total">R$ 0,00 fixo</strong>
+                </div>
+                <div class="fixed-bill-form">
+                  <label class="field">
+                    <span>Conta fixa</span>
+                    <input id="fixed-bill-name" type="text" maxlength="80" placeholder="Ex: aluguel, internet">
+                  </label>
+                  <label class="field">
+                    <span>Categoria</span>
+                    <select id="fixed-bill-category"></select>
+                  </label>
+                  <label class="field">
+                    <span>Valor</span>
+                    <input id="fixed-bill-amount" type="number" min="0" step="0.01" inputmode="decimal">
+                  </label>
+                  <button id="add-fixed-bill" class="button secondary" type="button">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Adicionar</span>
+                  </button>
+                </div>
+                <div id="fixed-bills-list" class="fixed-bills-list"></div>
+              </section>
+
+              <section class="register-page account-editor-panel" data-register-page="accounts" hidden>
+                <div class="register-page-title">
+                  <div>
+                    <h3 id="account-register-title">Cadastro de bancos e contas</h3>
+                    <p id="account-register-subtitle">Contas, reservas, dinheiro e investimentos.</p>
+                  </div>
+                </div>
+                <div id="account-editor-list" class="account-editor-list"></div>
+                <div class="account-form">
+                  <label class="field">
+                    <span>Nome</span>
+                    <input id="account-name" type="text" maxlength="80" placeholder="Ex: Nu Conta">
+                  </label>
+                  <label class="field">
+                    <span>Tipo</span>
+                    <select id="account-kind">
+                      <option value="checking">Conta</option>
+                      <option value="credit_card">Cartão</option>
+                      <option value="savings">Guardado</option>
+                      <option value="cash">Dinheiro</option>
+                      <option value="investment">Investimento</option>
+                    </select>
+                  </label>
+                  <label class="field">
+                    <span id="account-balance-label">Saldo</span>
+                    <input id="account-balance" type="number" step="0.01" inputmode="decimal">
+                  </label>
+                  <label class="field account-separate-field">
+                    <span>Saldo separado</span>
+                    <input id="account-separate-balance" type="number" min="0" step="0.01" inputmode="decimal">
+                  </label>
+                  <label class="field">
+                    <span id="account-limit-label">Limite</span>
+                    <input id="account-limit" type="number" min="0" step="0.01" inputmode="decimal">
+                  </label>
+                  <label class="field account-cdi-field" hidden>
+                    <span>% do CDI</span>
+                    <input id="account-cdi-percent" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Ex: 115">
+                  </label>
+                  <label class="field cdi-annual-field" hidden>
+                    <span>CDI anual usado (%)</span>
+                    <input id="cdi-annual-rate" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Ex: 10,65">
+                  </label>
+                  <button id="add-account" class="button secondary" type="button">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Adicionar</span>
+                  </button>
+                </div>
+              </section>
+
+              <section class="register-page" data-register-page="categories" hidden>
+                <div class="register-page-title">
+                  <div>
+                    <h3>Cadastro de categorias</h3>
+                    <p id="category-manager-subtitle">Edite como quiser</p>
+                  </div>
+                </div>
+                <div id="category-manager-list" class="category-manager-list"></div>
+                <div class="category-form">
+                  <label class="field">
+                    <span>Emoji</span>
+                    <input id="category-emoji" type="text" maxlength="4" placeholder="ðŸ·ï¸">
+                  </label>
+                  <label class="field">
+                    <span>Nome</span>
+                    <input id="category-name" type="text" maxlength="80" placeholder="Ex: Alimentação">
+                  </label>
+                  <label class="field">
+                    <span>Tipo</span>
+                    <select id="category-type">
+                      <option value="expense">Saída</option>
+                      <option value="income">Entrada</option>
+                      <option value="transfer">Movimentação</option>
+                      <option value="card_payment">Pagamento cartão</option>
+                    </select>
+                  </label>
+                  <label class="field">
+                    <span>Uso</span>
+                    <select id="category-usage"></select>
+                  </label>
+                  <label class="field">
+                    <span>Cor</span>
+                    <input id="category-color" type="color" value="#64748b">
+                  </label>
+                  <button id="add-category" class="button secondary" type="button">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Adicionar</span>
+                  </button>
+                </div>
+              </section>
+
+              <section class="register-page" data-register-page="usage" hidden>
+                <div class="register-page-title">
+                  <div>
+                    <h3>Uso do dinheiro</h3>
+                    <p id="usage-subtitle">Personalize seus grupos</p>
+                  </div>
+                </div>
+                <div id="usage-list" class="usage-list"></div>
+                <div class="usage-form">
+                  <label class="field">
+                    <span>Grupo</span>
+                    <input id="usage-name" type="text" maxlength="80" placeholder="Ex: Essencial">
+                  </label>
+                  <label class="field">
+                    <span>Planejado</span>
+                    <input id="usage-plan" type="number" min="0" step="0.01" inputmode="decimal">
+                  </label>
+                  <button id="add-usage" class="button secondary" type="button">
+                    <svg class="icon"><use href="#icon-plus"></use></svg>
+                    <span>Adicionar</span>
+                  </button>
+                </div>
+              </section>
+
+              <section class="register-page" data-register-page="limits" hidden>
+                <div class="register-page-title">
+                  <div>
+                    <h3>Limites por categoria</h3>
+                    <p id="budget-subtitle">0 categorias</p>
+                  </div>
+                </div>
+                <div id="budget-list" class="budget-list"></div>
+              </section>
+            </div>
+            </section>
+          </dialog>
+
+          <section class="summary-grid finance-summary-grid" aria-label="Resumo do mês">
+            <article class="metric metric-income">
+              <span>Entrou</span>
+              <strong id="metric-income-total">R$ 0,00</strong>
+              <small id="metric-income-detail">Entradas no mês</small>
+            </article>
+            <article class="metric metric-expense">
+              <span>Saiu</span>
+              <strong id="metric-expense-total">R$ 0,00</strong>
+              <small id="metric-expense-detail">Saídas no mês</small>
+            </article>
+            <article class="metric metric-fixed">
+              <div class="metric-header">
+                <span>Contas fixas</span>
+                <button id="fixed-details-button" class="metric-detail-button" type="button" title="Detalhes das contas fixas">
+                  <svg class="icon"><use href="#icon-chart"></use></svg>
+                  <span>Detalhes</span>
+                </button>
+              </div>
+              <strong id="metric-fixed">R$ 0,00</strong>
+              <small id="metric-fixed-detail">0 contas cadastradas</small>
+            </article>
+            <article class="metric metric-balance">
+              <span>Disponível para gastar</span>
+              <strong id="metric-spendable">R$ 0,00</strong>
+              <small id="metric-spendable-detail">Depois de fixos e saídas</small>
+            </article>
+          </section>
+
+          <section class="content-grid">
+            <section class="content-left-column">
+            <section class="panel quick-panel transaction-quick-panel">
+              <div class="panel-header">
+                <div>
+                  <h2>Inserir informações</h2>
+                  <p>Ações rápidas</p>
+                </div>
+              </div>
+              <div class="quick-actions">
+                <button class="button secondary quick-income" type="button" data-quick-transaction="income">
+                  <svg class="icon"><use href="#icon-plus"></use></svg>
+                  <span>Nova entrada</span>
+                </button>
+                <button class="button secondary quick-expense" type="button" data-quick-transaction="expense">
+                  <svg class="icon"><use href="#icon-plus"></use></svg>
+                  <span>Novo gasto</span>
+                </button>
+                <button class="button secondary quick-transfer" type="button" data-quick-transaction="transfer">
+                  <svg class="icon"><use href="#icon-wallet"></use></svg>
+                  <span>Movimentação</span>
+                </button>
+                <button class="button secondary quick-card" type="button" data-quick-transaction="card_payment">
+                  <svg class="icon"><use href="#icon-check"></use></svg>
+                  <span>Pagamento cartão</span>
+                </button>
+              </div>
+            </section>
+
+            <section class="panel category-limit-panel">
+              <div class="panel-header">
+                <div>
+                  <h2>Limites de categorias</h2>
+                  <p id="category-limit-subtitle">Mês atual</p>
+                </div>
+                <svg class="icon panel-icon"><use href="#icon-chart"></use></svg>
+              </div>
+              <div id="category-limit-overview" class="category-limit-overview"></div>
+            </section>
+            </section>
+
+            <section class="panel transaction-panel">
+              <div class="panel-header">
+                <div>
+                  <h2>Movimentações</h2>
+                  <p id="transaction-subtitle">0 itens</p>
+                </div>
+                <div class="search-field">
+                  <svg class="icon"><use href="#icon-search"></use></svg>
+                  <input id="search-input" type="search" placeholder="Buscar">
+                </div>
+              </div>
+
+              <div class="filters" aria-label="Filtros">
+                <label class="field">
+                  <span>Tipo</span>
+                  <select id="type-filter">
+                    <option value="all">Todos</option>
+                    <option value="income">Entradas</option>
+                    <option value="expense">Saídas</option>
+                    <option value="transfer">Movimentações</option>
+                    <option value="card_payment">Pagamento cartão</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>Categoria</span>
+                  <select id="category-filter">
+                    <option value="all">Todas</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>Conta</span>
+                  <select id="account-filter">
+                    <option value="all">Todas</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="transaction-table-wrap">
+                <div class="transaction-table-head" aria-hidden="true">
+                  <span>Nome</span>
+                  <span>Valor</span>
+                  <span>Tipo</span>
+                  <span>Saída</span>
+                  <span>Entrada</span>
+                  <span>Data</span>
+                  <span>Categoria</span>
+                  <span></span>
+                </div>
+                <div id="transaction-list" class="transaction-list transaction-table"></div>
+              </div>
+              <div id="transaction-list-footer" class="transaction-list-footer" hidden>
+                <button id="transaction-details-toggle" class="button secondary" type="button">
+                  <svg class="icon"><use href="#icon-chart"></use></svg>
+                  <span>Detalhes</span>
+                </button>
+              </div>
+            </section>
+
+            <aside class="right-column">
+              <section class="panel">
+                <div class="panel-header">
+                  <div>
+                    <h2>Fluxo</h2>
+                    <p>Últimos 6 meses</p>
+                  </div>
+                  <svg class="icon panel-icon"><use href="#icon-chart"></use></svg>
+                </div>
+                <div id="cashflow-chart" class="cashflow-chart"></div>
+              </section>
+
+              <section class="panel">
+                <div class="panel-header">
+                  <div>
+                    <h2>Categorias</h2>
+                    <p id="category-subtitle">Sem saídas</p>
+                  </div>
+                </div>
+                <div id="category-breakdown" class="category-breakdown"></div>
+              </section>
+            </aside>
+
+            <section class="panel category-comparison-panel">
+              <div class="panel-header">
+                <div>
+                  <h2>Comparativo de categorias</h2>
+                  <p id="category-comparison-subtitle">Este mês x mês passado</p>
+                </div>
+                <svg class="icon panel-icon"><use href="#icon-chart"></use></svg>
+              </div>
+              <div id="category-comparison" class="category-comparison"></div>
+            </section>
+
+            <section class="panel monthly-comparison-panel">
+              <div class="panel-header">
+                <div>
+                  <h2>Comparativo mensal</h2>
+                  <p id="finance-monthly-comparison-subtitle">Mês atual e 2 anteriores</p>
+                </div>
+                <svg class="icon panel-icon"><use href="#icon-chart"></use></svg>
+              </div>
+              <div id="finance-monthly-comparison" class="finance-monthly-comparison"></div>
+            </section>
+          </section>
+        </section>
+
+        <section id="workouts-view" class="view" data-view-panel="workouts" hidden>
+          <header class="topbar workout-topbar">
+            <div>
+              <p class="eyebrow">Quadro de Treinos</p>
+              <h1>Treinos</h1>
+            </div>
+            <div class="quest-rank-strip workout-rank-strip" aria-label="Tipos de treino">
+              <span>Força</span>
+              <span>Cardio</span>
+              <span>Mobilidade</span>
+              <span>Esporte</span>
+              <span>Outro</span>
+            </div>
+          </header>
+
+          <section class="panel workout-week-panel workout-week-overview" aria-label="Semana atual">
+            <div class="panel-header workout-week-header">
+              <div>
+                <h2>Semana atual</h2>
+                <p id="workout-week-detail">0 de 0 treinos concluídos</p>
+              </div>
+              <button id="new-workout" class="button primary" type="button">
+                <svg class="icon"><use href="#icon-plus"></use></svg>
+                <span>Novo treino</span>
+              </button>
+            </div>
+            <div id="workout-week-grid" class="quest-calendar-grid workout-week-grid"></div>
+          </section>
+
+          <section class="panel workout-list-panel workout-day-panel">
+            <div class="panel-header">
+              <div>
+                <h2>Planejamento da semana</h2>
+                <p id="workout-list-subtitle">0 treinos</p>
+              </div>
+            </div>
+            <div id="workout-list" class="workout-day-board"></div>
+          </section>
+
+          <section class="panel nutrition-panel" aria-label="Dieta e metas diárias">
+            <div class="panel-header nutrition-panel-header">
+              <div>
+                <h2>Dieta e metas</h2>
+                <p>Campos de alimentação baseados em grupos alimentares e limites diários</p>
+              </div>
+              <span id="nutrition-target-note" class="nutrition-target-note">Estimativa ajustável</span>
+            </div>
+
+            <div class="nutrition-layout">
+              <div class="nutrition-card nutrition-calculator">
+                <div class="nutrition-section-title">
+                  <strong>Calculadora</strong>
+                  <span>Edite peso, altura e rotina quando mudar.</span>
+                </div>
+                <div class="nutrition-form-grid">
+                  <label class="field">
+                    <span>Peso (kg)</span>
+                    <input id="nutrition-weight" type="number" min="30" max="250" step="0.1" inputmode="decimal">
+                  </label>
+                  <label class="field">
+                    <span>Altura (cm)</span>
+                    <input id="nutrition-height" type="number" min="120" max="230" step="1" inputmode="numeric">
+                  </label>
+                  <label class="field">
+                    <span>Idade</span>
+                    <input id="nutrition-age" type="number" min="14" max="100" step="1" inputmode="numeric">
+                  </label>
+                  <label class="field">
+                    <span>Sexo biológico</span>
+                    <select id="nutrition-sex">
+                      <option value="male">Masculino</option>
+                      <option value="female">Feminino</option>
+                    </select>
+                  </label>
+                  <label class="field">
+                    <span>Atividade</span>
+                    <select id="nutrition-activity">
+                      <option value="1.2">Sedentário</option>
+                      <option value="1.375">Leve</option>
+                      <option value="1.55">Moderada</option>
+                      <option value="1.725">Alta</option>
+                      <option value="1.9">Muito alta</option>
+                    </select>
+                  </label>
+                  <label class="field">
+                    <span>Objetivo</span>
+                    <select id="nutrition-goal">
+                      <option value="cut">Perder gordura</option>
+                      <option value="maintain">Manter</option>
+                      <option value="gain">Ganhar massa</option>
+                    </select>
+                  </label>
+                  <label class="field">
+                    <span>Proteína (g/kg)</span>
+                    <input id="nutrition-protein-factor" type="number" min="0.8" max="2.4" step="0.1" inputmode="decimal">
+                  </label>
+                  <label class="field">
+                    <span>Água (ml/kg)</span>
+                    <input id="nutrition-water-factor" type="number" min="20" max="55" step="1" inputmode="numeric">
+                  </label>
+                </div>
+              </div>
+
+              <div class="nutrition-card nutrition-results">
+                <div class="nutrition-section-title">
+                  <strong>Resultado</strong>
+                  <span id="nutrition-bmr-detail">Base calculada por peso, altura, idade e atividade.</span>
+                </div>
+                <div class="nutrition-result-grid">
+                  <div class="nutrition-result-card">
+                    <span>Calorias</span>
+                    <strong id="nutrition-calories-target">0 kcal</strong>
+                    <small id="nutrition-maintenance-detail">Manutenção: 0 kcal</small>
+                  </div>
+                  <div class="nutrition-result-card">
+                    <span>Proteína</span>
+                    <strong id="nutrition-protein-target">0 g</strong>
+                    <small id="nutrition-protein-detail">0 g/kg</small>
+                  </div>
+                  <div class="nutrition-result-card">
+                    <span>Água</span>
+                    <strong id="nutrition-water-target">0 L</strong>
+                    <small id="nutrition-water-detail">0 ml/kg</small>
+                  </div>
+                  <div class="nutrition-result-card">
+                    <span>IMC</span>
+                    <strong id="nutrition-bmi">0</strong>
+                    <small id="nutrition-bmi-detail">Referência simples</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nutrition-card diet-card meal-planner-card">
+              <div class="nutrition-section-title meal-planner-title">
+                <div>
+                  <strong>Plano alimentar do dia</strong>
+                  <span>Monte refeições, marque as que foram feitas e acompanhe as metas.</span>
+                </div>
+                <span id="plate-log-date">Hoje</span>
+              </div>
+
+              <div class="meal-planner-layout">
+                <section class="diet-half plate-items-panel meal-builder-panel" aria-label="Refeições do dia">
+                  <div class="diet-half-header meal-builder-header">
+                    <div>
+                      <h3>Refeições do dia</h3>
+                      <p>Selecione um prato ou crie outro. O check soma a refeição no total do dia.</p>
+                    </div>
+                    <div class="meal-action-row">
+                      <button id="new-plate-meal" class="button secondary compact-button meal-action-new" type="button">
+                        <svg class="icon"><use href="#icon-plus"></use></svg>
+                        <span>Nova refeição</span>
+                      </button>
+                      <button id="open-food-dialog" class="button primary compact-button meal-action-add" type="button">
+                        <svg class="icon"><use href="#icon-plus"></use></svg>
+                        <span>Adicionar ao prato</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="plate-items-list" class="plate-items-list meal-list"></div>
+                </section>
+
+                <aside class="diet-half plate-builder-panel daily-total-panel" aria-label="Total do dia">
+                  <div class="diet-half-header">
+                    <div>
+                      <h3>Total do dia</h3>
+                      <p>Baseado nas metas da calculadora.</p>
+                    </div>
+                  </div>
+                  <div class="plate-summary-grid" aria-label="Totais nutricionais do dia">
+                    <div class="plate-total-card">
+                      <span>Calorias</span>
+                      <strong id="plate-total-calories">0 kcal</strong>
+                    </div>
+                    <div class="plate-total-card">
+                      <span>Proteína</span>
+                      <strong id="plate-total-protein">0 g</strong>
+                    </div>
+                    <div class="plate-total-card">
+                      <span>Carboidratos</span>
+                      <strong id="plate-total-carbs">0 g</strong>
+                    </div>
+                    <div class="plate-total-card">
+                      <span>Gorduras</span>
+                      <strong id="plate-total-fat">0 g</strong>
+                    </div>
+                    <div class="plate-total-card">
+                      <span>Fibra</span>
+                      <strong id="plate-total-fiber">0 g</strong>
+                    </div>
+                  </div>
+                  <div id="plate-target-status" class="plate-target-status"></div>
+                </aside>
+              </div>
+
+              <section class="meal-ideas-panel" aria-label="Ideias de pratos">
+                <div class="diet-half-header">
+                  <div>
+                    <h3>Ideias rápidas</h3>
+                    <p>Use uma sugestão como refeição ou salve para repetir depois.</p>
+                  </div>
+                  <button id="refresh-meal-ideas" class="button secondary compact-button" type="button">
+                    <svg class="icon"><use href="#icon-star"></use></svg>
+                    <span>Ver outras ideias</span>
+                  </button>
+                </div>
+                <div class="meal-ideas-layout">
+                  <div class="meal-ideas-column">
+                    <div class="meal-subtitle">Sugestões de hoje</div>
+                    <div id="meal-ideas-list" class="meal-ideas-list"></div>
+                  </div>
+                  <div class="saved-meal-column">
+                    <div class="saved-meal-ideas-title">
+                      <strong>Ideias salvas</strong>
+                      <span id="meal-ideas-date">Hoje</span>
+                    </div>
+                    <div class="saved-meal-ideas">
+                      <div id="saved-meal-ideas-list" class="meal-ideas-list compact"></div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+        </section>
+
+        <section id="pantry-view" class="view" data-view-panel="pantry" hidden>
+          <header class="topbar pantry-topbar">
+            <div>
+              <p class="eyebrow">Controle de casa</p>
+              <h1>Despensa</h1>
+              <p>Itens de casa com alerta de reposicao, validade e consumo estimado.</p>
+            </div>
+            <button id="new-pantry-item" class="button primary" type="button">
+              <svg class="icon"><use href="#icon-plus"></use></svg>
+              <span>Novo item</span>
+            </button>
+          </header>
+
+          <section class="summary-grid pantry-summary-grid" aria-label="Resumo da despensa">
+            <article class="metric pantry-metric-total">
+              <span>Itens</span>
+              <strong id="pantry-total-count">0</strong>
+              <small id="pantry-total-detail">despensa vazia</small>
+            </article>
+            <article class="metric pantry-metric-alert">
+              <span>Reposicao</span>
+              <strong id="pantry-restock-count">0</strong>
+              <small id="pantry-restock-detail">nada baixo</small>
+            </article>
+            <article class="metric pantry-metric-expire">
+              <span>Validade</span>
+              <strong id="pantry-expiring-count">0</strong>
+              <small id="pantry-expiring-detail">sem vencimentos</small>
+            </article>
+            <article class="metric pantry-metric-cost">
+              <span>Estimativa</span>
+              <strong id="pantry-restock-estimate">R$ 0,00</strong>
+              <small>para repor itens baixos</small>
+            </article>
+          </section>
+
+          <section class="panel pantry-toolbar" aria-label="Filtros da despensa">
+            <label class="field pantry-search-field">
+              <span>Busca</span>
+              <input id="pantry-search" type="search" autocomplete="off" placeholder="Buscar item, categoria ou local">
+            </label>
+            <label class="field">
+              <span>Categoria</span>
+              <select id="pantry-category-filter"></select>
+            </label>
+            <label class="field">
+              <span>Local</span>
+              <select id="pantry-location-filter"></select>
+            </label>
+            <label class="field">
+              <span>Status</span>
+              <select id="pantry-status-filter"></select>
+            </label>
+            <label class="field">
+              <span>Modo</span>
+              <select id="pantry-mode-filter"></select>
+            </label>
+          </section>
+
+          <section id="pantry-list" class="pantry-list" aria-label="Itens da despensa"></section>
+        </section>
+
+        <dialog id="pantry-item-dialog" class="dialog pantry-item-dialog">
+          <form id="pantry-form" class="dialog-card pantry-dialog-card" novalidate>
+            <div class="dialog-header">
+              <div>
+                <p class="eyebrow">Despensa</p>
+                <h2 id="pantry-item-dialog-title">Adicionar item</h2>
+                <p id="pantry-form-subtitle">Configure como este item deve ser acompanhado.</p>
+              </div>
+              <button id="close-pantry-item-dialog" class="icon-button" type="button" aria-label="Fechar cadastro de item" title="Fechar">
+                <svg class="icon"><use href="#icon-close"></use></svg>
+              </button>
+            </div>
+            <input id="pantry-item-id" type="hidden">
+            <div class="pantry-form-grid">
+              <label class="field span-2">
+                <span>Item</span>
+                <input id="pantry-item-name" type="text" maxlength="100" placeholder="Ex.: arroz, cafe, detergente" required>
+              </label>
+              <label class="field">
+                <span>Categoria</span>
+                <select id="pantry-item-category"></select>
+              </label>
+              <label class="field">
+                <span>Local</span>
+                <select id="pantry-item-location"></select>
+              </label>
+              <label class="field">
+                <span>Controle</span>
+                <select id="pantry-item-tracking-mode"></select>
+              </label>
+              <label class="field pantry-field-unit">
+                <span>Unidade</span>
+                <select id="pantry-item-unit"></select>
+              </label>
+              <label class="field pantry-field-quantity">
+                <span>Quantidade atual</span>
+                <input id="pantry-item-quantity" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0">
+              </label>
+              <label class="field pantry-field-level">
+                <span>Nivel atual</span>
+                <select id="pantry-item-stock-level"></select>
+              </label>
+              <label class="field pantry-field-minimum">
+                <span>Minimo para alerta</span>
+                <input id="pantry-item-min-quantity" type="number" min="0" step="0.01" inputmode="decimal" placeholder="1">
+              </label>
+              <label class="field pantry-field-target">
+                <span>Quantidade cheia</span>
+                <input id="pantry-item-target-quantity" type="number" min="0" step="0.01" inputmode="decimal" placeholder="5">
+              </label>
+              <label class="field pantry-field-price">
+                <span>Preco medio</span>
+                <input id="pantry-item-average-price" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0,00">
+              </label>
+              <label class="field">
+                <span>Validade</span>
+                <input id="pantry-item-expiration-date" type="date">
+              </label>
+              <label class="field pantry-field-consumption">
+                <span>Consumo a cada ciclo</span>
+                <input id="pantry-item-consumption-amount" type="number" min="0" step="0.01" inputmode="decimal" placeholder="1">
+              </label>
+              <label class="field pantry-field-consumption">
+                <span>Ciclo em dias</span>
+                <input id="pantry-item-consumption-days" type="number" min="1" step="1" inputmode="numeric" placeholder="7">
+              </label>
+              <label class="field span-2">
+                <span>Notas</span>
+                <textarea id="pantry-item-notes" rows="3" maxlength="500" placeholder="Marca preferida, observacoes, onde comprar..."></textarea>
+              </label>
+            </div>
+            <p id="pantry-mode-help" class="pantry-mode-help"></p>
+            <div class="dialog-actions pantry-form-actions">
+              <button id="cancel-pantry-edit" class="button secondary" type="button">Cancelar</button>
+              <button class="button primary" type="submit">
+                <svg class="icon"><use href="#icon-plus"></use></svg>
+                <span id="pantry-submit-label">Salvar item</span>
+              </button>
+            </div>
+          </form>
+        </dialog>
+
+        <section id="shopping-view" class="view" data-view-panel="shopping" hidden>
+          <header class="topbar shopping-topbar">
+            <div>
+              <p class="eyebrow">Quadro de Compras</p>
+              <h1>Compras</h1>
+            </div>
+          </header>
+
+          <section class="shopping-board-shell" aria-label="Lista de compras por categoria">
+            <section class="shopping-market-panel" aria-label="Lista do mercado">
+              <div id="shopping-market-list"></div>
+            </section>
+            <section class="shopping-wishlist-panel" aria-label="Outras compras">
+              <section class="summary-grid shopping-summary-grid" aria-label="Resumo das outras compras">
+                <article class="metric shopping-metric-pending">
+                  <span>Pendentes</span>
+                  <strong id="shopping-pending-total">0</strong>
+                  <small id="shopping-pending-detail">itens abertos</small>
+                </article>
+                <article class="metric shopping-metric-estimate">
+                  <span>Previsto</span>
+                  <strong id="shopping-estimated-total">R$ 0,00</strong>
+                  <small id="shopping-estimated-detail">pendente na lista</small>
+                </article>
+                <article class="metric shopping-metric-count">
+                  <span>Total</span>
+                  <strong id="shopping-item-total">0</strong>
+                  <small id="shopping-list-detail">lista vazia</small>
+                </article>
+                <article class="metric shopping-metric-purchased">
+                  <span>Comprados</span>
+                  <strong id="shopping-purchased-total">0</strong>
+                  <small id="shopping-purchased-detail">0% da lista</small>
+                </article>
+              </section>
+              <div id="shopping-list" class="shopping-board-columns"></div>
+            </section>
+          </section>
+        </section>
+
+        <dialog id="shopping-item-dialog" class="dialog shopping-item-dialog">
+          <form id="shopping-form" class="dialog-card shopping-item-dialog-card" novalidate>
+            <div class="dialog-header">
+              <div>
+                <p class="eyebrow">Compras</p>
+                <h2 id="shopping-item-dialog-title">Adicionar item</h2>
+                <p id="shopping-form-subtitle">Cadastre um item na coluna escolhida.</p>
+              </div>
+              <button id="close-shopping-item-dialog" class="icon-button" type="button" aria-label="Fechar cadastro de item" title="Fechar">
+                <svg class="icon"><use href="#icon-close"></use></svg>
+              </button>
+            </div>
+            <input id="shopping-item-id" type="hidden">
+            <div class="shopping-form">
+              <label class="field span-2">
+                <span>Item</span>
+                <input id="shopping-item-name" type="text" maxlength="100" placeholder="Ex.: arroz, controle, monitor">
+              </label>
+              <label class="check-field shopping-priority-field span-2">
+                <input id="shopping-item-priority" type="checkbox">
+                <span>Prioridade</span>
+              </label>
+              <label class="field">
+                <span>Quantidade</span>
+                <input id="shopping-item-quantity" type="text" maxlength="40" inputmode="decimal" placeholder="Ex.: 2">
+              </label>
+              <label class="field">
+                <span>Preco</span>
+                <input id="shopping-item-price" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0,00">
+              </label>
+              <label class="field">
+                <span>Categoria</span>
+                <select id="shopping-item-category">
+                  <option value="market">Mercado</option>
+                  <option value="needed">Preciso</option>
+                  <option value="nice">Seria bom ter</option>
+                  <option value="want">Inutil mas eu quero</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Link da loja</span>
+                <input id="shopping-item-url" type="url" maxlength="500" placeholder="https://">
+              </label>
+            </div>
+            <div class="dialog-actions shopping-form-actions">
+              <button id="cancel-shopping-edit" class="button secondary" type="button">Cancelar</button>
+              <button class="button primary" type="submit">
+                <svg class="icon"><use href="#icon-plus"></use></svg>
+                <span id="shopping-submit-label">Adicionar item</span>
+              </button>
+            </div>
+          </form>
+        </dialog>
+
+        <section id="system-view" class="view" data-view-panel="system" hidden>
+          <header class="topbar system-topbar">
+            <div>
+              <p class="eyebrow">Central do app</p>
+              <h1>Sistema</h1>
+              <p>Backup, nuvem e atualizacoes em um unico lugar.</p>
+            </div>
+          </header>
+
+          <section class="system-grid" aria-label="Controles do sistema">
+            <article class="system-card system-cloud-card">
+              <div class="system-card-header">
+                <div>
+                  <p class="eyebrow">Nuvem</p>
+                  <h2>Dados sincronizados</h2>
+                </div>
+                <span id="system-cloud-state" class="system-pill offline">Nuvem off</span>
+              </div>
+              <p id="cloud-sync-detail" class="system-card-note">Entre na mesma conta no desktop e no celular para compartilhar os dados.</p>
+              <div class="cloud-sync-note">
+                O primeiro login envia seus dados locais para a nuvem se ainda nao existir um estado salvo.
+              </div>
+
+              <form id="cloud-sync-form" class="system-form">
+                <div class="form-grid">
+                  <label class="field">
+                    <span>E-mail</span>
+                    <input id="cloud-sync-email" type="email" autocomplete="email" placeholder="voce@email.com">
+                  </label>
+                  <label class="field">
+                    <span>Senha</span>
+                    <input id="cloud-sync-password" type="password" autocomplete="current-password" minlength="6">
+                  </label>
+                </div>
+
+                <div class="dialog-actions system-actions">
+                  <button id="cloud-sync-logout" class="button secondary" type="button">Sair</button>
+                  <button id="cloud-sync-signup" class="button secondary" type="button">Criar conta</button>
+                  <button class="button primary" type="submit">Entrar</button>
+                </div>
+              </form>
+
+              <div id="cloud-sync-config-admin" class="cloud-sync-config" hidden>
+                <p class="eyebrow">Configuracao do Supabase</p>
+                <div class="form-grid">
+                  <label class="field span-2">
+                    <span>Project URL</span>
+                    <input id="cloud-sync-url" type="url" autocomplete="off" placeholder="https://seu-projeto.supabase.co">
+                  </label>
+                  <label class="field span-2">
+                    <span>Anon public key</span>
+                    <input id="cloud-sync-anon-key" type="text" autocomplete="off" spellcheck="false">
+                  </label>
+                </div>
+                <button id="save-cloud-sync-config" class="button secondary" type="button">Salvar configuracao</button>
+              </div>
+            </article>
+
+            <article class="system-card system-backup-card">
+              <div class="system-card-header">
+                <div>
+                  <p class="eyebrow">Backup</p>
+                  <h2>Backup automatico da base</h2>
+                </div>
+              </div>
+              <div class="cloud-sync-config backup-config">
+                <div class="form-grid">
+                  <label class="field">
+                    <span>Status</span>
+                    <select id="backup-enabled">
+                      <option value="true">Ativado</option>
+                      <option value="false">Desativado</option>
+                    </select>
+                  </label>
+                  <label class="field">
+                    <span>Dia da semana</span>
+                    <select id="backup-day">
+                      <option value="0">Domingo</option>
+                      <option value="1">Segunda</option>
+                      <option value="2">Terca</option>
+                      <option value="3">Quarta</option>
+                      <option value="4">Quinta</option>
+                      <option value="5">Sexta</option>
+                      <option value="6">Sabado</option>
+                    </select>
+                  </label>
+                </div>
+                <small id="backup-status">Mantem sempre os 2 backups mais recentes da base na nuvem.</small>
+                <button id="backup-run-now" class="button secondary" type="button">Fazer backup da base agora</button>
+              </div>
+            </article>
+
+            <article class="system-card system-update-card">
+              <div class="system-card-header">
+                <div>
+                  <p class="eyebrow">Atualizacoes</p>
+                  <h2>Centro de atualizacoes</h2>
+                </div>
+              </div>
+              <div class="system-version-grid">
+                <div>
+                  <span>Versao atual</span>
+                  <strong id="system-update-current">0.1.37</strong>
+                </div>
+                <div>
+                  <span>Ultima versao</span>
+                  <strong id="system-update-latest">Nao verificada</strong>
+                </div>
+                <div>
+                  <span>Plataforma</span>
+                  <strong id="system-update-runtime">Web</strong>
+                </div>
+              </div>
+              <p id="system-update-status" class="system-card-note">A verificacao automatica continua ativa. Use este painel quando quiser consultar manualmente.</p>
+              <p id="system-update-notes" class="system-update-notes"></p>
+              <button id="system-update-action" class="button secondary" type="button">Verificar atualizacao</button>
+            </article>
+
+            <article class="system-card system-tools-card">
+              <div class="system-card-header">
+                <div>
+                  <p class="eyebrow">App</p>
+                  <h2>Preferencias e dados</h2>
+                </div>
+              </div>
+              <div class="system-tool-grid">
+                <button id="theme-toggle" class="button secondary theme-toggle" type="button">
+                  <svg class="icon"><use href="#icon-moon"></use></svg>
+                  <span>Tema</span>
+                </button>
+                <button id="export-data" class="button secondary" type="button">
+                  <svg class="icon"><use href="#icon-download"></use></svg>
+                  <span>Exportar dados</span>
+                </button>
+                <button id="import-data" class="button secondary" type="button">
+                  <svg class="icon"><use href="#icon-upload"></use></svg>
+                  <span>Importar dados</span>
+                </button>
+              </div>
+            </article>
+
+            <article class="system-card system-mobile-nav-card">
+              <div class="system-card-header">
+                <div>
+                  <p class="eyebrow">Mobile</p>
+                  <h2>Navegacao inferior</h2>
+                </div>
+              </div>
+              <p class="system-card-note">Os 4 primeiros itens aparecem na barra fixa do celular. O restante fica em Mais.</p>
+              <div id="mobile-nav-order-list" class="mobile-nav-order-list"></div>
+            </article>
+          </section>
+        </section>
+
+      </main>
+
+      <nav id="mobile-bottom-nav" class="mobile-bottom-nav" aria-label="Navegacao mobile"></nav>
+    </div>
+
+    <dialog id="mobile-more-dialog" class="dialog mobile-more-dialog">
+      <section class="dialog-card mobile-more-card">
+        <div class="dialog-header">
+          <div>
+            <p class="eyebrow">Navegacao</p>
+            <h2>Mais paginas</h2>
+          </div>
+          <button id="close-mobile-more" class="icon-button" type="button" aria-label="Fechar menu mobile" title="Fechar">
+            <svg class="icon"><use href="#icon-close"></use></svg>
+          </button>
+        </div>
+        <div id="mobile-more-list" class="mobile-more-list"></div>
+      </section>
+    </dialog>
+
+    <dialog id="home-widget-dialog" class="dialog home-widget-dialog">
+      <form id="home-widget-form" class="dialog-card">
+        <div class="dialog-header">
+          <div>
+            <p class="eyebrow">Quadro livre</p>
+            <h2 id="home-widget-dialog-title">Item da Home</h2>
+          </div>
+          <button id="close-home-widget-dialog" class="icon-button" type="button" aria-label="Fechar widget" title="Fechar">
+            <svg class="icon"><use href="#icon-close"></use></svg>
+          </button>
+        </div>
+
+        <input id="home-widget-id" type="hidden">
+
+        <div class="form-grid">
+          <label class="field span-2">
+            <span>Titulo</span>
+            <input id="home-widget-title" type="text" maxlength="80" required>
+          </label>
+          <label class="field">
+            <span>Tamanho inicial</span>
+            <select id="home-widget-size">
+              <option value="small">Pequeno</option>
+              <option value="medium">Medio</option>
+              <option value="wide">Largo</option>
+              <option value="tall">Alto</option>
+              <option value="large">Grande</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Cor</span>
+            <input id="home-widget-color" type="color" value="#615bd0">
+          </label>
+          <label class="field span-2">
+            <span>Resumo do card</span>
+            <textarea id="home-widget-note" rows="3" maxlength="420" placeholder="Texto curto que aparece na Home."></textarea>
+          </label>
+          <textarea id="home-widget-page-content" hidden maxlength="4000"></textarea>
+        </div>
+
+        <div class="dialog-actions">
+          <button id="cancel-home-widget-dialog" class="button secondary" type="button">Cancelar</button>
+          <button class="button primary" type="submit">
+            <svg class="icon"><use href="#icon-plus"></use></svg>
+            <span>Salvar item</span>
+          </button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="page-block-dialog" class="dialog page-block-dialog">
+      <form id="page-block-form" class="dialog-card page-block-dialog-card">
+        <div class="dialog-header">
+          <div>
+            <p class="eyebrow">Criar livre</p>
+            <h2>Nova informacao</h2>
+            <span>Escolha como esse bloco deve se organizar.</span>
+          </div>
+          <button id="close-page-block-dialog" class="icon-button" type="button" aria-label="Fechar criacao de bloco" title="Fechar">
+            <svg class="icon"><use href="#icon-close"></use></svg>
+          </button>
+        </div>
+
+        <input id="page-block-page-id" type="hidden">
+
+        <select id="page-block-type" hidden></select>
+        <div id="page-block-type-options" class="page-block-type-options" aria-label="Modelos de bloco"></div>
+
+        <div class="form-grid page-block-create-grid">
+          <label class="field">
+            <span>Nome</span>
+            <input id="page-block-title" type="text" maxlength="90" required>
+          </label>
+          <textarea id="page-block-body" hidden maxlength="3000"></textarea>
+        </div>
+
+        <div class="dialog-actions">
+          <button id="cancel-page-block-dialog" class="button secondary" type="button">Cancelar</button>
+          <button class="button primary" type="submit">
+            <svg class="icon"><use href="#icon-plus"></use></svg>
+            <span>Criar bloco</span>
+          </button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="food-dialog" class="dialog food-dialog">
+      <section class="dialog-card food-dialog-card">
+        <div class="dialog-header">
+          <div>
+            <p class="eyebrow">Prato</p>
+            <h2>Montar refeição</h2>
+            <span>Edite o prato atual e adicione alimentos por porções práticas.</span>
+          </div>
+          <button id="close-food-dialog" class="icon-button" type="button" aria-label="Fechar alimentos" title="Fechar">
+            <svg class="icon"><use href="#icon-close"></use></svg>
+          </button>
+        </div>
+
+        <div class="food-dialog-layout">
+          <aside class="food-dialog-current" aria-label="Prato em edição">
+            <div id="food-dialog-meal-summary" class="food-dialog-meal-summary"></div>
+            <div id="food-dialog-selected-list" class="food-dialog-selected-list"></div>
+          </aside>
+
+          <section class="food-dialog-catalog" aria-label="Catálogo de alimentos">
+            <div class="food-dialog-tools">
+              <label class="field">
+                <span>Buscar</span>
+                <input id="food-catalog-search" type="search" placeholder="ovo, arroz, frango...">
+              </label>
+              <label class="field">
+                <span>Grupo</span>
+                <select id="food-catalog-group">
+                  <option value="all">Todos</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Qtd. padrão</span>
+                <input id="plate-food-quantity" type="number" min="0.25" max="20" step="0.25" value="1" inputmode="decimal">
+              </label>
+            </div>
+
+            <div id="food-catalog-list" class="food-catalog-list"></div>
+          </section>
+        </div>
+      </section>
+    </dialog>
+
+    <dialog id="workout-dialog" class="dialog workout-dialog">
+      <form id="workout-form" class="dialog-card workout-dialog-card">
+        <div class="dialog-header">
+          <div>
+            <p class="eyebrow">Treino</p>
+            <h2 id="workout-dialog-title">Cadastrar treino</h2>
+            <span id="workout-form-subtitle">Cadastro de treino</span>
+          </div>
+          <button id="close-workout-dialog" class="icon-button" type="button" aria-label="Fechar cadastro de treino" title="Fechar">
+            <svg class="icon"><use href="#icon-close"></use></svg>
+          </button>
+        </div>
+
+        <input id="workout-id" type="hidden">
+
+        <div class="form-grid workout-dialog-grid">
+          <label class="field span-2">
+            <span>Treino</span>
+            <input id="workout-title" type="text" maxlength="120" required>
+          </label>
+          <label class="field">
+            <span>Tipo</span>
+            <select id="workout-type">
+              <option value="strength">Força</option>
+              <option value="cardio">Cardio</option>
+              <option value="mobility">Mobilidade</option>
+              <option value="sport">Esporte</option>
+              <option value="other">Outro</option>
+            </select>
+          </label>
+          <input id="workout-reward" type="hidden" value="15">
+          <fieldset class="field span-2 workout-weekday-field">
+            <legend>Dias da semana</legend>
+            <div class="workout-weekday-options">
+              <div class="workout-weekday-option">
+                <label><input type="checkbox" name="workout-weekdays" value="mon" checked><span>Seg</span></label>
+                <input data-workout-rest-day="mon" type="text" maxlength="24" placeholder="Descanso">
+              </div>
+              <div class="workout-weekday-option">
+                <label><input type="checkbox" name="workout-weekdays" value="tue"><span>Ter</span></label>
+                <input data-workout-rest-day="tue" type="text" maxlength="24" placeholder="Descanso">
+              </div>
+              <div class="workout-weekday-option">
+                <label><input type="checkbox" name="workout-weekdays" value="wed" checked><span>Qua</span></label>
+                <input data-workout-rest-day="wed" type="text" maxlength="24" placeholder="Descanso">
+              </div>
+              <div class="workout-weekday-option">
+                <label><input type="checkbox" name="workout-weekdays" value="thu"><span>Qui</span></label>
+                <input data-workout-rest-day="thu" type="text" maxlength="24" placeholder="Descanso">
+              </div>
+              <div class="workout-weekday-option">
+                <label><input type="checkbox" name="workout-weekdays" value="fri" checked><span>Sex</span></label>
+                <input data-workout-rest-day="fri" type="text" maxlength="24" placeholder="Descanso">
+              </div>
+              <div class="workout-weekday-option">
+                <label><input type="checkbox" name="workout-weekdays" value="sat"><span>Sáb</span></label>
+                <input data-workout-rest-day="sat" type="text" maxlength="24" placeholder="Descanso">
+              </div>
+              <div class="workout-weekday-option">
+                <label><input type="checkbox" name="workout-weekdays" value="sun"><span>Dom</span></label>
+                <input data-workout-rest-day="sun" type="text" maxlength="24" placeholder="Descanso">
+              </div>
+            </div>
+          </fieldset>
+          <label class="field span-2">
+            <span>Status</span>
+            <select id="workout-status">
+              <option value="active">Ativo</option>
+              <option value="inactive">Inativo</option>
+            </select>
+          </label>
+          <fieldset class="field span-2 workout-exercises-field">
+            <legend>Exercícios</legend>
+            <div class="workout-exercise-table" role="table" aria-label="Exercícios do treino">
+              <div class="workout-exercise-head" role="row">
+                <span>Exercício</span>
+                <span>Reps.</span>
+                <span>Tempo/qtd.</span>
+                <span></span>
+              </div>
+              <div id="workout-exercise-rows" class="workout-exercise-rows"></div>
+            </div>
+            <button id="add-workout-exercise" class="button secondary compact-button" type="button">
+              <svg class="icon"><use href="#icon-plus"></use></svg>
+              <span>Adicionar exercício</span>
+            </button>
+            <textarea id="workout-notes" hidden maxlength="700"></textarea>
+          </fieldset>
+        </div>
+
+        <div class="dialog-actions">
+          <button id="cancel-workout-edit" class="button secondary" type="button">Cancelar</button>
+          <button class="button primary" type="submit">
+            <svg class="icon"><use href="#icon-plus"></use></svg>
+            <span id="workout-submit-label">Criar treino</span>
+          </button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="transaction-dialog" class="dialog">
+      <form id="transaction-form" class="dialog-card">
+        <div class="dialog-header">
+          <div>
+            <p class="eyebrow">Lançamento</p>
+            <h2 id="dialog-title">Novo lançamento</h2>
+          </div>
+          <button id="close-dialog" class="icon-button" type="button" aria-label="Fechar" title="Fechar">
+            <svg class="icon"><use href="#icon-close"></use></svg>
+          </button>
+        </div>
+
+        <input id="transaction-id" type="hidden">
+
+        <div class="form-grid">
+          <label class="field span-2">
+            <span>Descrição</span>
+            <input id="transaction-description" type="text" maxlength="160" required>
+          </label>
+          <label class="field">
+            <span>Valor</span>
+            <input id="transaction-amount" type="number" min="0.01" step="0.01" required>
+          </label>
+          <label class="field">
+            <span>Data</span>
+            <input id="transaction-date" type="date" required>
+          </label>
+          <label class="field">
+            <span>Tipo</span>
+            <select id="transaction-type" required>
+              <option value="expense">Saída</option>
+              <option value="income">Entrada</option>
+              <option value="transfer">Movimentação</option>
+              <option value="card_payment">Pagamento cartão</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Categoria</span>
+            <select id="transaction-category" required></select>
+          </label>
+          <label class="field">
+            <span id="transaction-account-label">Conta/cartão</span>
+            <select id="transaction-account" required></select>
+          </label>
+          <label id="transaction-account-balance-field" class="field is-hidden">
+            <span id="transaction-account-balance-label">Usar saldo</span>
+            <select id="transaction-account-balance-scope">
+              <option value="main">Saldo da conta</option>
+              <option value="separate">Saldo separado</option>
+            </select>
+          </label>
+          <label id="transaction-target-field" class="field is-hidden">
+            <span id="transaction-target-label">Conta de destino</span>
+            <select id="transaction-target-account"></select>
+          </label>
+          <label id="transaction-target-balance-field" class="field is-hidden">
+            <span id="transaction-target-balance-label">Receber em</span>
+            <select id="transaction-target-balance-scope">
+              <option value="main">Saldo da conta</option>
+              <option value="separate">Saldo separado</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Status</span>
+            <select id="transaction-status" required>
+              <option value="cleared">Confirmado</option>
+              <option value="pending">Pendente</option>
+            </select>
+          </label>
+          <label class="field span-2">
+            <span>Observações</span>
+            <textarea id="transaction-notes" rows="3" maxlength="500"></textarea>
+          </label>
+        </div>
+
+        <div class="dialog-actions">
+          <button id="cancel-dialog" class="button secondary" type="button">Cancelar</button>
+          <button class="button primary" type="submit">Salvar</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="fixed-details-dialog" class="dialog fixed-details-dialog">
+      <section class="dialog-card">
+        <div class="dialog-header">
+          <div>
+            <p class="eyebrow">Contas fixas</p>
+            <h2>Detalhes de pagamento</h2>
+            <small id="fixed-details-subtitle">Pago R$ 0,00 de R$ 0,00</small>
+          </div>
+          <button id="close-fixed-details-dialog" class="icon-button" type="button" aria-label="Fechar detalhes" title="Fechar">
+            <svg class="icon"><use href="#icon-close"></use></svg>
+          </button>
+        </div>
+        <div id="fixed-details-list" class="fixed-details-list"></div>
+      </section>
+    </dialog>
+
+    <input id="import-file" type="file" accept="application/json" hidden>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="app-config.js?v=20260807-rhythm-legend"></script>
+    <script src="vendor/supabase.js?v=20260807-rhythm-legend"></script>
+    <script src="app-update.js?v=20260807-rhythm-legend"></script>
+    <script src="app.js?v=20260807-rhythm-legend"></script>
+  </body>
+</html>
